@@ -10,6 +10,7 @@ nav ul{
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align:center;
 }
 
 footer ul {
@@ -20,8 +21,7 @@ footer ul {
 
 nav ul li, footer ul li {
     display: inline;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
 }
 
 a {
