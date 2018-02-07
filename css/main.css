@@ -3,11 +3,20 @@ body {
     width: 70%;
     background-color: #C8A56B;
 }
-nav ul, footer ul {
+nav ul{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    list-style: none;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+}
+
+footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
