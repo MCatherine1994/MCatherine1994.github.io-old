@@ -5,13 +5,8 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding-bottom: 15px;
     list-style: none;
     font-weight: bold;
-    position: absolute;
-    bottom: 2em;
-    left: 1em;
-    width: 9em 
 }
 nav ul li, footer ul li {
     display: inline;
