@@ -2,6 +2,9 @@
     margin: auto;
     width: 60%;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 body {
@@ -14,9 +17,6 @@ nav ul{
     list-style: none;
     font-weight: bold;
     font-size: 1.5em
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 nav ul li{
