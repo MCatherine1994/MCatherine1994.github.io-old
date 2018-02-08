@@ -1,6 +1,7 @@
 .float_center {
     margin: auto;
     width: 60%;
+    pattern: 10px;
     position: fixed;
     bottom: 0;
 }
