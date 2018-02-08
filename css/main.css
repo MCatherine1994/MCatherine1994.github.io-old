@@ -1,3 +1,11 @@
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -21,7 +29,6 @@ nav ul li{
 a {
     text-decoration: none;
     color: #F8EBD6;
-    display: inline-block;
 }
 
 a:hover {
