@@ -1,6 +1,7 @@
 .img-circle {
     border-radius: 50%;
     border: 3.5px dashed #ff9900;
+    background-color: #c5d5cb;
 }
 body {
     margin: 60px auto;
