@@ -13,13 +13,13 @@ body {
 }
 
 nav ul{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Times New Roman", Times, serif;
     list-style: none;
-    font-weight: bold;
-    font-size: 1.5em;
+ /*   font-weight: bold; */
+/*    font-size: 1.5em; */
+    text-align: center;
     position: fixed;
     bottom: 0;
-    width: 60%;
 }
 
 nav ul li{
@@ -29,6 +29,7 @@ nav ul li{
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
     color: #9fa8a3;
     width:150px;
