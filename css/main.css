@@ -30,7 +30,7 @@ a {
     display: inline-block;
     text-decoration: none;
     color: #9fa8a3;
-    padding:10px;
+    width: 200px;
 }
 
 a:hover {
