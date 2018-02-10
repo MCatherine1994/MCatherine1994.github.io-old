@@ -4,7 +4,7 @@
     background-color: #c5d5cb;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+    -webkit-box-reflect: left;
 }
 
 body {
