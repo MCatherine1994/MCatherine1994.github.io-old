@@ -89,9 +89,9 @@ h4 {
     color: #333; 
     border: 2px dashed #ffccdd;
     border-radius: 8px;
-    top: 300px;
-    left: 50px;
-    width: 280px;
+    top: 400px;
+    left: 300px;
+    width: 150px;
 }
 
 .expvulsec {
@@ -100,9 +100,9 @@ h4 {
     color: #333; 
     border: 2px dashed #ffccdd;
     border-radius: 8px;
-    top: 300px;
-    left: 300px;
-    width: 280px;
+    top: 400px;
+    left: 500px;
+    width: 150px;
 }
 
 .expfirst {
@@ -111,9 +111,9 @@ h4 {
     color: #333; 
     border: 2px dashed #ffccdd;
     border-radius: 8px;
-    top: 50px;
-    left: 550px;
-    width: 280px;
+    top: 100px;
+    left: 600px;
+    width: 250px;
 }
 
 .expsec {
@@ -122,7 +122,7 @@ h4 {
     color: #333; 
     border: 2px dashed #ffccdd;
     border-radius: 8px;
-    top: 300px;
+    top: 200px;
     left: 650px;
-    width: 280px;
+    width: 250px;
 }
