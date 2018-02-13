@@ -77,9 +77,29 @@ h4 {
 /*    background-size: cover; */                                                                                                                                          
 }
 
-p {
+.centerimage {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expfirst {
+    position: relative;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     border: 2px dashed #ffccdd;
     border-radius: 8px;
+    bottom: 100px;
+    left: 50px;
+}
+
+.expsec {
+    position: relative;
+    font-family: "Bradley Hand", cursive;
+    color: #333; 
+    border: 2px dashed #ffccdd;
+    border-radius: 8px;
+    bottom: 100px;
+    left: 500px;
 }
