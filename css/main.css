@@ -23,6 +23,8 @@ ul{
     bottom: 0;
     margin: auto;
     padding: auto;
+    width: 100%;
+    overflow: scroll;
 }
 
 li{
@@ -36,6 +38,7 @@ a {
     text-align: center;
     text-decoration: none;
     color: #9fa8a3;
+    padding:14px 30px;
 }
 
 a:hover {
@@ -56,11 +59,7 @@ h4 {
     text-align: center;
 }
 
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
+
 
 /* -------------Experience Page---------------------------- */
 .experience {
@@ -68,4 +67,10 @@ p {
     background-image: url("../img/exp-bg.gif");
     background-position: center; 
     background-size: cover;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
