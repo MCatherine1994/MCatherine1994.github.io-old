@@ -74,42 +74,45 @@ h4 {
 /*    background-image: url("../img/exp-bg.jpg"); */
     background-color: #c2ccd6;
     background-position: center; 
-    position: relative; 
+ /*   position: relative; */
 /*    background-size: cover; */                                                                                                                                          
 }
 
 .centerimage {
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top:25%;
+    vertical-align: middle;
 }
 
 .expvulfir {
-    position:absolute;
+    position:absolute; 
     font-family: "Bradley Hand", cursive;
     color: #333; 
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 200px;
+    top: 400px;
     left: 200px;
     width: 150px;
 }
 
 .expvulsec {
-    position:absolute;
+    position:absolute; 
     font-family: "Bradley Hand", cursive;
     color: #333; 
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 200px;
-    left: 350px;
+    top: 400px;
+    left: 450px;
     width: 100px;
 }
 
 .expfirst {
-    position:absolute;
+    position:absolute; 
     font-family: "Bradley Hand", cursive;
     color: #333; 
     background-color: #fce8e8;
@@ -138,16 +141,16 @@ h4 {
 
 .contact {
     background-image: url("../img/contact-bg.jpg");
+    width:100%;
 }
 
 .contactinfo {
     line-height: 200px;
     height: 200px;
-    border: 3px dashed yellow;
     text-align: center;
     margin-left:20%;
     margin-right:20%;
-    margin-top:25%
+    margin-top:50%
 }
 
 .contactinfo p {
