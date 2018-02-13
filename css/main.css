@@ -78,9 +78,13 @@ h4 {
 }
 
 .centerimage {
-    display: block;
+    position: absolute;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
+    top: 25%;
+    left: 25%;
+    float: left;
 }
 
 .expvulfir {
