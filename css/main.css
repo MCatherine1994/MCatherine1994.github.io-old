@@ -85,7 +85,7 @@ li a:hover {
     position: relative;
     display: block;
     top: 33%;
-    left: 33%;
+    left: 25%;
     vertical-align: middle;
 }
 
@@ -96,9 +96,9 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-  /*     top: 400px;
-    left: 200px;
-    width: 150px; */
+    top: 45%;
+    left: 10%;
+    width: 150px; 
 }
 
 .expvulsec {
@@ -108,9 +108,9 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
- /*    top: 400px;
-    left: 450px;
-    width: 100px; */
+    top: 45%;
+    left: 25%;
+    width: 100px; 
 }
 
 .expfirst {
@@ -120,9 +120,9 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-  /*     top: 200px;
-    left: 500px;
-    width: 250px; */
+    top: 25%;
+    left: 40%;
+    width: 250px; 
 }
 
 .expsec {
@@ -132,9 +132,9 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-  /*     top: 400px;
-    left: 600px;
-    width: 250px; */
+    top: 45%;
+    left: 45%;
+    width: 250px; 
 }
 
 
@@ -150,6 +150,7 @@ li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    top: 33%;
 }
 
 /*.contactinfo {
