@@ -83,14 +83,34 @@ h4 {
     margin-right: auto;
 }
 
+.expvulfir {
+    font-family: "Bradley Hand", cursive;
+    color: #333; 
+    border: 2px dashed #ffccdd;
+    border-radius: 8px;
+    top: 100px;
+    left: 50px;
+    width: 350px;
+}
+
+.expvulsec {
+    font-family: "Bradley Hand", cursive;
+    color: #333; 
+    border: 2px dashed #ffccdd;
+    border-radius: 8px;
+    top: 100px;
+    left: 300px;
+    width: 350px;
+}
+
 .expfirst {
     font-family: "Bradley Hand", cursive;
     color: #333; 
     border: 2px dashed #ffccdd;
     border-radius: 8px;
-    bottom: 0px;
-    left: 300px;
-    width: 200px;
+    top: 25px;
+    left: 550px;
+    width: 350px;
 }
 
 .expsec {
@@ -99,7 +119,7 @@ h4 {
     color: #333; 
     border: 2px dashed #ffccdd;
     border-radius: 8px;
-    top: 20px;
-    left: 700px;
-    width: 200px;
+    top: 100px;
+    left: 650px;
+    width: 350px;
 }
