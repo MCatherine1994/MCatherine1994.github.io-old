@@ -70,7 +70,7 @@ h4 {
 
 /* -------------Experience Page---------------------------- */
 .experience {
-    z-index:97;
+ /*   z-index:97; */
 /*    background-image: url("../img/exp-bg.jpg"); */
     background-color: #c2ccd6;
     background-position: center; 
