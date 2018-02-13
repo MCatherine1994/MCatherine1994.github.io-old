@@ -78,12 +78,14 @@ h4 {
 }
 
 .centerimage {
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .expvulfir {
+    position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     border: 2px dashed #ffccdd;
@@ -94,6 +96,7 @@ h4 {
 }
 
 .expvulsec {
+    position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     border: 2px dashed #ffccdd;
@@ -104,6 +107,7 @@ h4 {
 }
 
 .expfirst {
+    position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     border: 2px dashed #ffccdd;
@@ -114,7 +118,7 @@ h4 {
 }
 
 .expsec {
-    position: relative;
+    position: absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     border: 2px dashed #ffccdd;
