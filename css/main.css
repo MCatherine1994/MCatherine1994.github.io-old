@@ -72,14 +72,14 @@ h4 {
 .experience {
     z-index:97;
 /*    background-image: url("../img/exp-bg.jpg"); */
-    background-color: #d6c7c2;
+    background-color: #c2ccd6;
     background-position: center; 
-/*    background-size: cover; */
+/*    background-size: cover; */                                                                                                                                          
 }
 
 p {
     font-family: fantasy;
-    color: #333;
-    border: 2px solid;
-    border-radius: 5px;
+    color: #333; 
+    border: 2px dashed #ffccdd;
+    border-radius: 8px;
 }
