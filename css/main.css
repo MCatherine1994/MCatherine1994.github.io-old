@@ -84,14 +84,14 @@ h4 {
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25%;
+    margin-top: 50%;
 }
 
 .expvulfir {
     position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
-    background-color: #ffccdd;
+    background-color: #fbeaea;
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 400px;
@@ -103,7 +103,7 @@ h4 {
     position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
-    background-color: #ffccdd;
+    background-color: #fbeaea;
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 400px;
@@ -115,7 +115,7 @@ h4 {
     position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
-    background-color: #ffccdd;
+    background-color: #fbeaea;
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 200px;
@@ -127,7 +127,7 @@ h4 {
     position: absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
-    background-color: #ffccdd;
+    background-color: #fbeaea;
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 400px;
