@@ -74,8 +74,8 @@ li a:hover {
 .experience {
  /*   z-index:97; */
     background-color: #c2ccd6;
-    opacity: 0.5;
-    filter: alpha(opacity=50); 
+ /*   opacity: 0.5;
+    filter: alpha(opacity=50);  */
     background-size: cover;                                                                                                                                          
 }
 
@@ -84,6 +84,8 @@ li a:hover {
     display: block;
     top: 50%;
     left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
     vertical-align: middle;
 }
 
@@ -151,6 +153,8 @@ li a:hover {
     position: fixed;
     top: 50%;
     left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
 }
 
 .contactinfo p {
