@@ -74,23 +74,23 @@ h4 {
 /*    background-image: url("../img/exp-bg.jpg"); */
     background-color: #c2ccd6;
     background-position: center; 
+    text-align: center;
+    position: relative;
 /*    background-size: cover; */                                                                                                                                          
 }
 
 .centerimage {
-    position: absolute;
-    /* display: block; */
+    display: block;
+    vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
-    top: 25%;
-    left: 25%;
-    float: left;
 }
 
 .expvulfir {
-    position:relative;
+    position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
+    background-color: #ff9999;
     border: 2px dashed #ffccdd;
     border-radius: 8px;
     top: 400px;
@@ -99,9 +99,10 @@ h4 {
 }
 
 .expvulsec {
-    position:relative;
+    position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
+    background-color: #ff9999;
     border: 2px dashed #ffccdd;
     border-radius: 8px;
     top: 400px;
@@ -110,9 +111,10 @@ h4 {
 }
 
 .expfirst {
-    position:relative;
+    position:absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
+    background-color: #ff9999;
     border: 2px dashed #ffccdd;
     border-radius: 8px;
     top: 100px;
@@ -121,9 +123,10 @@ h4 {
 }
 
 .expsec {
-    position: relative;
+    position: absolute;
     font-family: "Bradley Hand", cursive;
     color: #333; 
+    background-color: #ff9999;
     border: 2px dashed #ffccdd;
     border-radius: 8px;
     top: 200px;
