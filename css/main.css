@@ -15,24 +15,26 @@ body {
     background-attachment: fixed;
 }
 
-nav ul{
-    font-family: "Times New Roman", Times, serif;
+/* -------------------------------------- Navigation Bar ----------------------------------*/
+ul{
     list-style: none;
     text-align: center;
     position: fixed;
     bottom: 0;
-    width:750px;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li{
-    display: inline;
+li{
+     font-family: "Times New Roman", Times, serif;
+     display: inline-block;
+    /*float: left; */
 }
 
 a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: #9fa8a3;
-    width:150px;
 }
 
 a:hover {
@@ -61,7 +63,7 @@ p {
 
 /* -------------Experience Page---------------------------- */
 .experience {
-    z-index:90;
+    z-index:97;
     background-image: url("../img/exp-bg.gif");
     background-position: center; 
     background-size: cover;
