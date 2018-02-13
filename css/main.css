@@ -4,16 +4,6 @@ div {
 	height: 100%; 
 }
 
-.img-model {
-    display: block;
-    border-radius: 50%; /*3px;*/
-    background-color: #c5d5cb; /*#c2d4d8;*/
-    background-position: center; 
-    margin-left: auto;
-    margin-right: auto;
-   /* -webkit-box-reflect: left; */
-}
-
 body {
     margin: 0;
     background: linear-gradient(90deg, #e3e0cf 50%, #ffffff 50%); 
@@ -39,7 +29,7 @@ li{
     /*float: left; */
 }
 
-a {
+li a {
     display: block;
     font-size: 1.2em;
     text-align: center;
@@ -48,36 +38,45 @@ a {
     padding: 30px; 
 }
 
-a:hover {
+li a:hover {
     text-decoration: underline;
 }
 
-h2 {
+/* -----------------------------Home Page------------------------------- */
+.home {
+
+}
+.home h2 {
     color:#9fa8a3;
     padding: 10px;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
-h4 {
+.home h4 {
     color:#9fa8a3;
     padding: 10px;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
-
+.img-model {
+    display: block;
+    border-radius: 50%; /*3px;*/
+    background-color: #c5d5cb; /*#c2d4d8;*/
+    background-position: center; 
+    margin-left: auto;
+    margin-right: auto;
+   /* -webkit-box-reflect: left; */
+}
 
 /* -------------Experience Page---------------------------- */
 .experience {
  /*   z-index:97; */
-/*    background-image: url("../img/exp-bg.jpg"); */
     background-color: #c2ccd6;
-    background-position: center; 
     opacity: 0.5;
     filter: alpha(opacity=50); 
- /*   position: relative; */
-/*    background-size: cover; */                                                                                                                                          
+    background-size: cover;                                                                                                                                          
 }
 
 .centerimage {
