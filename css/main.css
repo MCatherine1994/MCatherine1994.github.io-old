@@ -74,6 +74,8 @@ h4 {
 /*    background-image: url("../img/exp-bg.jpg"); */
     background-color: #c2ccd6;
     background-position: center; 
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
  /*   position: relative; */
 /*    background-size: cover; */                                                                                                                                          
 }
