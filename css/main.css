@@ -65,7 +65,7 @@ h4 {
 /* -------------Experience Page---------------------------- */
 .experience {
     z-index:97;
-    background-image: url("../img/exp-bg.gif");
+    background-image: url("../img/exp-bg.jpg");
     background-position: center; 
     background-size: cover;
 }
