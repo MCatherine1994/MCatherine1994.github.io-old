@@ -49,14 +49,15 @@ li a:hover {
 }
 .home h2 {
     color:#9fa8a3;
-    padding: 10px;
+    margin-top:10%;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
 .home h4 {
     color:#9fa8a3;
-    padding: 10px;
+    margin-top:13%;
+ /*   padding: 10px; */
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
@@ -68,6 +69,7 @@ li a:hover {
     background-position: center; 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25%;
    /* -webkit-box-reflect: left; */
 }
 
