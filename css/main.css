@@ -85,7 +85,7 @@ li a:hover {
     position: relative;
     display: block;
     top: 30%;
-    left: 20%;
+    left: 21%;
     vertical-align: middle;
 }
 
@@ -121,7 +121,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 20%;
-    left: 55%;
+    left: 50%;
     width: 250px; 
 }
 
@@ -133,7 +133,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 55%;
-    left: 60%;
+    left: 55%;
     width: 250px; 
 }
 
@@ -145,7 +145,7 @@ li a:hover {
     position: relative;
     background-image: url("../img/contact-bg2.jpg");
     background-size: cover;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0);
 }
 
 .contact img {
