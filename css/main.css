@@ -51,14 +51,14 @@ li a:hover {
 
 .home h2 {
     color:#9fa8a3;
-    padding-top:15px;
+    padding-top:20px;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
 .home h4 {
     color:#9fa8a3;
-    padding-top: 10px; 
+    padding-top: 15px; 
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
@@ -68,7 +68,7 @@ li a:hover {
     border-radius: 50%; /*3px;*/
     background-color: #c5d5cb; /*#c2d4d8;*/
     background-position: center; 
-    padding-top: 10px;
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
    /* -webkit-box-reflect: left; */
@@ -104,7 +104,7 @@ li a:hover {
     top: 45%;
     left: 23%;
     width: 270px; 
-    box-shadow: 10px 10px #f0dbdb;
+    box-shadow: 10px 10px #eddede;
 }
 
 *.expvulsec {
@@ -117,7 +117,7 @@ li a:hover {
     top: 45%;
     left: 52%;
     width: 270px;
-    box-shadow: 10px 10px #f0dbdb;
+    box-shadow: 10px 10px #eddede;
 } 
 
 .expfirst {
@@ -130,7 +130,7 @@ li a:hover {
     top: 27%;
     left: 52%;
     width: 270px; 
-    box-shadow: 10px 10px #f0dbdb;
+    box-shadow: 10px 10px #eddede;
 }
 
 .expsec {
@@ -143,7 +143,7 @@ li a:hover {
     top: 27%;
     left: 23%;
     width: 270px; 
-    box-shadow: 10px 10px #f0dbdb;
+    box-shadow: 10px 10px #eddede;
 }
 
 
