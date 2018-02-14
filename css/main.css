@@ -88,7 +88,7 @@ li a:hover {
     display: block;
     top: 8%;
  /*   top: 30%; */
-    left: 21%;
+    left: 19%;
     vertical-align: middle;
 }
 
@@ -102,11 +102,11 @@ li a:hover {
 /*    top: 55%; */
     top: 35%;
 /*    left: 25%; */
-    left: 18%
+    left: 25%
     width: 220px; 
 }
 
-.expvulsec {
+/*.expvulsec {
     position:absolute; 
     font-family: "Bradley Hand", cursive;
     color: #333; 
@@ -118,7 +118,7 @@ li a:hover {
  /*   top: 55%;
     left: 43%; */
     width: 250; 
-}
+} */
 
 .expfirst {
     position:absolute; 
@@ -128,7 +128,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 35%;
-    left: 55%;
+    left: 43%;
  /*   top: 20%;
     left: 50%; */
     width: 250px; 
@@ -142,7 +142,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 35%;
-    left: 70%;
+    left: 65%;
 /*    top: 55%;
     left: 55%;  */
     width: 250px; 
