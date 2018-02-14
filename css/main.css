@@ -144,11 +144,23 @@ li a:hover {
 /* -------------------------Contact Page-----------------------------------*/
 
 .contact {
-    z-index: 95;
-    position: relative;
-    background-image: url("../img/contact-bg3.png");
+ /*   z-index: 95; */
+    position: relative; 
+ /*   background-image: url("../img/contact-bg3.png"); */
     background-size: cover;
 /*    background: rgba(0, 0, 0); */
+}
+
+.contact::after {
+    content: "";
+    background: url("../img/contact-bg3.png");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 95;  
 }
 
 .contact img {
