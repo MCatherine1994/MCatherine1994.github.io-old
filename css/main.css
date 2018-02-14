@@ -78,14 +78,14 @@ li a:hover {
     filter: alpha(opacity=50);  */
     position: relative;
     background-size: cover;
-    overflow: hidden
+    overflow: scroll;
 }
 
 .centerimage {
     position: relative;
     display: block;
     top: 30%;
-    left: 25%;
+    left: 20%;
     vertical-align: middle;
 }
 
@@ -97,7 +97,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 55%;
-    left: 23%;
+    left: 25%;
     width: 150px; 
 }
 
@@ -109,7 +109,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 55%;
-    left: 46%;
+    left: 43%;
     width: 100px; 
 }
 
@@ -121,7 +121,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 20%;
-    left: 60%;
+    left: 55%;
     width: 250px; 
 }
 
@@ -133,7 +133,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 55%;
-    left: 65%;
+    left: 60%;
     width: 250px; 
 }
 
@@ -143,11 +143,14 @@ li a:hover {
 
 .contact {
     background-image: url("../img/contact-bg2.jpg");
-    width:100%;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .contact img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     top: 33%;
 }
 
