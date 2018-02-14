@@ -58,7 +58,7 @@ li a:hover {
 
 .home h4 {
     color:#9fa8a3;
-    padding: 8px; 
+    padding: 10px; 
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
@@ -68,7 +68,7 @@ li a:hover {
     border-radius: 50%; /*3px;*/
     background-color: #c5d5cb; /*#c2d4d8;*/
     background-position: center; 
-    padding: 10px;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
    /* -webkit-box-reflect: left; */
@@ -148,6 +148,25 @@ li a:hover {
     box-shadow: 10px 10px #ebe0e0;
 }
 
+.expsec .popsec {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.expsec .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
 
 
 /* -------------------------Contact Page-----------------------------------*/
