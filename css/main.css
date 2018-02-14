@@ -101,9 +101,10 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 43%;
-    left: 25%;
+    top: 45%;
+    left: 23%;
     width: 270px; 
+    box-shadow: 10px 10px #f0dbdb;
 }
 
 *.expvulsec {
@@ -113,9 +114,10 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 43%;
+    top: 45%;
     left: 52%;
-    width: 270px; 
+    width: 270px;
+    box-shadow: 10px 10px #f0dbdb;
 } 
 
 .expfirst {
@@ -128,6 +130,7 @@ li a:hover {
     top: 27%;
     left: 52%;
     width: 270px; 
+    box-shadow: 10px 10px #f0dbdb;
 }
 
 .expsec {
@@ -138,8 +141,9 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 27%;
-    left: 25%;
+    left: 23%;
     width: 270px; 
+    box-shadow: 10px 10px #f0dbdb;
 }
 
 
