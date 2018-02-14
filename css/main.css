@@ -122,6 +122,7 @@ li a:hover {
 
 .expfirst {
     position:absolute; 
+    cursor: pointer;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     background-color: #fce8e8;
@@ -135,6 +136,7 @@ li a:hover {
 
 .expsec {
     position: absolute;
+    cursor: pointer;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     background-color: #fce8e8;
