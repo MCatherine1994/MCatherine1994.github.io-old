@@ -122,7 +122,6 @@ li a:hover {
 
 .expfirst {
     position:absolute; 
-    cursor: pointer;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     background-color: #fce8e8;
@@ -136,7 +135,6 @@ li a:hover {
 
 .expsec {
     position: absolute;
-    cursor: pointer;
     font-family: "Bradley Hand", cursive;
     color: #333; 
     background-color: #fce8e8;
@@ -148,7 +146,13 @@ li a:hover {
     box-shadow: 10px 10px #ebe0e0;
 }
 
-.expsec .popsec {
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup .popsec {
     visibility: hidden;
     width: 160px;
     background-color: #555;
@@ -162,7 +166,7 @@ li a:hover {
     margin-left: -80px;
 }
 
-.expsec .show {
+.popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
