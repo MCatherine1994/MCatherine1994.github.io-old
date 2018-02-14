@@ -5,6 +5,8 @@ div {
 }
 
 body {
+    margin: 0;
+    background: linear-gradient(90deg, #e3e0cf 50%, #ffffff 50%); 
     background-position: center; 
     background-attachment: fixed; 
 }
@@ -43,9 +45,8 @@ li a:hover {
 
 /* -----------------------------Home Page------------------------------- */
 .home {
-    margin: 0;
-    background: linear-gradient(90deg, #e3e0cf 50%, #ffffff 50%); 
-    background-position: center; 
+
+ /*   background-position: center;  */
 }
 
 .home h2 {
