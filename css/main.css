@@ -5,8 +5,6 @@ div {
 }
 
 body {
-    margin: 0;
-    background-color: #c2d4d8;
     background-position: center; 
     background-attachment: fixed; 
 }
@@ -52,15 +50,14 @@ li a:hover {
 
 .home h2 {
     color:#9fa8a3;
-    margin-top: 5%;
-    padding:15px;
+    padding-top:15px;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
 .home h4 {
     color:#9fa8a3;
-    padding: 10px; 
+    padding-top: 10px; 
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
@@ -70,6 +67,7 @@ li a:hover {
     border-radius: 50%; /*3px;*/
     background-color: #c5d5cb; /*#c2d4d8;*/
     background-position: center; 
+    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
    /* -webkit-box-reflect: left; */
