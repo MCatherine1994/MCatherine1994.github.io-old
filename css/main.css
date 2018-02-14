@@ -84,8 +84,8 @@ li a:hover {
 .centerimage {
     position: relative;
     display: block;
-    top: 28%;
-    left: 33%;
+    top: 30%;
+    left: 25%;
     vertical-align: middle;
 }
 
@@ -97,7 +97,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 55%;
-    left: 28%;
+    left: 23%;
     width: 150px; 
 }
 
@@ -109,7 +109,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 55%;
-    left: 40%;
+    left: 46%;
     width: 100px; 
 }
 
@@ -120,7 +120,7 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 25%;
+    top: 20%;
     left: 60%;
     width: 250px; 
 }
@@ -148,8 +148,6 @@ li a:hover {
 
 .contact img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     top: 33%;
 }
 
