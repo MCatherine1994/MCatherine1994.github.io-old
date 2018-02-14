@@ -154,6 +154,7 @@ li a:hover {
 .contact::after {
     content: "";
     background: url("../img/contact-bg3.png");
+    background-size: cover;
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -170,6 +171,7 @@ li a:hover {
     margin-right: auto;
     top: 20%;
     left: 60%;
+    z-index: 96;
 }
 
 /*.contactinfo {
