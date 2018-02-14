@@ -80,7 +80,7 @@ li a:hover {
     filter: alpha(opacity=50);  */
     position: relative;
 /*    background-size: cover; */
-    overflow: scroll;
+/*    overflow: scroll; */
 }
 
 .centerimage {
