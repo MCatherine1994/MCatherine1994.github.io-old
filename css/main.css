@@ -6,9 +6,9 @@ div {
 
 body {
     margin: 0;
-    background: linear-gradient(90deg, #e3e0cf 50%, #ffffff 50%); 
+    background-color: #c2d4d8;
     background-position: center; 
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
@@ -45,8 +45,11 @@ li a:hover {
 
 /* -----------------------------Home Page------------------------------- */
 .home {
-
+    margin: 0;
+    background: linear-gradient(90deg, #e3e0cf 50%, #ffffff 50%); 
+    background-position: center; 
 }
+
 .home h2 {
     color:#9fa8a3;
     margin-top: 5%;
