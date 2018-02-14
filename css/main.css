@@ -13,6 +13,7 @@ body {
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
 ul{
+    z-index: 100;
     list-style: none;
     text-align: center;
     position: fixed;
@@ -142,6 +143,7 @@ li a:hover {
 /* -------------------------Contact Page-----------------------------------*/
 
 .contact {
+    z-index: 95;
     position: relative;
     background-image: url("../img/contact-bg3.png");
     background-size: cover;
