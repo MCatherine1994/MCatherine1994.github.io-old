@@ -85,7 +85,7 @@ li a:hover {
     position: relative;
     display: block;
     top: 28%;
-    left: 55%;
+    left: 33%;
     vertical-align: middle;
 }
 
@@ -97,7 +97,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 55%;
-    left: 35%;
+    left: 28%;
     width: 150px; 
 }
 
@@ -109,7 +109,7 @@ li a:hover {
     border: 2px dashed #ff9999;
     border-radius: 8px;
     top: 55%;
-    left: 45%;
+    left: 40%;
     width: 100px; 
 }
 
