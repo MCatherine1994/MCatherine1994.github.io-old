@@ -35,10 +35,15 @@
 			   Time: 201605 <br>
 			   LocationL: Victoria </p>  
 			
+			<div class="popup" oncClick="popFuntwo()">
 			<p style="text-align: left;" class="expfirst">Title: <u>Business System Analysis</u> <br>
 			   Company: Maximus <br>
 			   Time: 201701-201712 <br>
 			   Location: Victoria </p> 
+				
+			<span class="popfirst" id="ptwo">
+				add someting later </span>
+			</div>
 			
 			<div class="popup"  onClick="popFun()">
 			<p style="text-align: left;" class="expsec">Title:  <u>IT - Applicant</u> <br>
@@ -59,6 +64,14 @@
 			// When the user clicks on div, open the popup
 			function popFun() {
     				var popup = document.getElementById("pone");
+    				popup.classList.toggle("show");
+			}
+		</script>  
+		
+		<script>
+			// When the user clicks on div, open the popup
+			function popFuntwo() {
+    				var popup = document.getElementById("ptwo");
     				popup.classList.toggle("show");
 			}
 		</script>  
