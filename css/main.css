@@ -52,7 +52,7 @@ li a:hover {
 .home h2 {
     color:#9fa8a3;
 /*    padding: 18px; */
-    padding: 3%;
+    padding: 2%;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
@@ -109,7 +109,7 @@ li a:hover {
     box-shadow: 10px 10px #e9e2e2;
 }
 
-*.expvulsec {
+.expvulsec {
     position:absolute; 
     font-family: "Bradley Hand", cursive;
     color: #333; 
@@ -151,7 +151,7 @@ li a:hover {
 .popup {
  /*   position: relative;  */
  /*   display: inline-block; */
-    cursor: pointer;
+/*    cursor: pointer;  */
 }
 
 .popsec {
@@ -169,7 +169,7 @@ li a:hover {
 /*    margin-left: -80px; */
 }
 
-.popsec::after {
+/*.popsec::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -179,7 +179,7 @@ li a:hover {
     border-style: solid;
     border-color: #555 transparent transparent transparent;
 
-}
+}  */
 
 .popfirst {
     visibility: hidden;
@@ -194,8 +194,6 @@ li a:hover {
     top: 27%;
     left: 70%;
 }
-
-
 
 .show {
     visibility: visible;
