@@ -156,17 +156,46 @@ li a:hover {
 
 .popsec {
     visibility: hidden;
-    width: 350px; 
+    width: 380px; 
     background-color: #668599;
     color: #fff;
-    text-align: center;
+    font-family: "Bradley Hand", cursive;
+    text-align: left;
     border-radius: 8px;
     padding: 8px 0;
     position: absolute;
     top: 27%;
     left: 51%;
-    margin-left: -80px;
+/*    margin-left: -80px; */
 }
+
+.popsec::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+
+}
+
+.popfirst {
+    visibility: hidden;
+    width: 380px; 
+    background-color: #668599;
+    color: #fff;
+    font-family: "Bradley Hand", cursive;
+    text-align: left;
+    border-radius: 8px;
+    padding: 8px 0;
+    position: absolute;
+    top: 27%;
+    left: 70%;
+}
+
+
 
 .show {
     visibility: visible;
