@@ -50,30 +50,27 @@ li a:hover {
 }
 
 .home h2 {
-    position: absolute;
     color:#9fa8a3;
 /*    padding: 18px; */
-    top: 5%;
+    top: 9%;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
 .home h4 {
-    position: absolute;
     color:#9fa8a3;
 /*    padding: 12px; */
-    top: 7%
+    top: 5%
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
 .img-model {
-    position: absolute;
     display: block;
     border-radius: 50%; /*3px;*/
     background-color: #c5d5cb; /*#c2d4d8;*/
     background-position: center; 
-    top: 12%;
+    top: 3%;
 /*    padding: 20px; */
     margin-left: auto;
     margin-right: auto;
@@ -142,7 +139,6 @@ li a:hover {
 .expsec {
     position: absolute;
     font-family: "Bradley Hand", cursive;
-    cursor: pointer;
     color: #333; 
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
