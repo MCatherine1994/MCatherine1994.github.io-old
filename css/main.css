@@ -138,6 +138,7 @@ li a:hover {
 .expsec {
     position: absolute;
     font-family: "Bradley Hand", cursive;
+    cursor: pointer;
     color: #333; 
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
@@ -165,21 +166,21 @@ li a:hover {
     padding: 8px 0;
     position: absolute;
     top: 27%;
-    left: 51%;
+    left: 47%;
 /*    margin-left: -80px; */
 }
 
-/*.popsec::after {
+.popsec::after {
     content: "";
     position: absolute;
-    top: 100%;
-    left: 50%;
+    top: 50%;
+    right: 100%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
-
-}  */
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color:  #668599;
+}  
 
 .popfirst {
     visibility: hidden;
