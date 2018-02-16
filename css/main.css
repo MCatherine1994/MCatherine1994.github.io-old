@@ -96,6 +96,19 @@ li a:hover {
     vertical-align: middle;
 }
 
+.expedu {
+    position:absolute; 
+    font-family: "Bradley Hand", cursive;
+    color: #333; 
+    background-color: #fce8e8;
+    border: 2px dashed #ff9999;
+    border-radius: 8px;
+    top: 21%;
+    left: 23%;
+    width: 270px; 
+    box-shadow: 10px 10px #e9e2e2;
+}
+
 .expvulfir {
     position:absolute; 
     font-family: "Bradley Hand", cursive;
@@ -103,7 +116,7 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 45%;
+    top: 53%;
     left: 23%;
     width: 270px; 
     box-shadow: 10px 10px #e9e2e2;
@@ -116,7 +129,7 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 45%;
+    top: 53%;
     left: 52%;
     width: 270px;
     box-shadow: 10px 10px #e9e2e2;
@@ -129,7 +142,7 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 27%;
+    top: 35%;
     left: 52%;
     width: 270px; 
     box-shadow: 10px 10px #e9e2e2;
@@ -143,7 +156,7 @@ li a:hover {
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
     border-radius: 8px;
-    top: 27%;
+    top: 35%;
     left: 23%;
     width: 270px; 
     box-shadow: 10px 10px #e9e2e2;
@@ -166,7 +179,7 @@ li a:hover {
     padding: 8px 0;
     position: absolute;
     top: 27%;
-    left: 47%;
+    left: 45%;
 /*    margin-left: -80px; */
 }
 
