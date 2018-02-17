@@ -90,18 +90,18 @@ li a:hover {
 .logone {
     position: absolute;
     top: 23%;
-    left: 56%;
+    left: 53%;
 }
 
 .logtwo {
     position: absolute;
     top: 23%;
-    left: 61%;
+    left: 59%;
 }
 
 .logthree {
     position: absolute;
-    top: 23%;
+    top: 25%;
     left: 67%;
 }
 
@@ -187,7 +187,7 @@ li a:hover {
     border-radius: 8px;
     padding: 8px 0;
     position: absolute;
-    top: 27%;
+    top: 30%;
     left: 45%;
 /*    margin-left: -80px; */
 }
@@ -214,8 +214,20 @@ li a:hover {
     border-radius: 8px;
     padding: 8px 0;
     position: absolute;
-    top: 27%;
+    top: 30%;
     left: 70%;
+}
+
+.popfirst::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color:  #668599;
 }
 
 .show {
