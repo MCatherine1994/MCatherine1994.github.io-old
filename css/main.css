@@ -147,6 +147,7 @@ li a:hover {
 .expfirst {
     position:absolute; 
     font-family: "Bradley Hand", cursive;
+    cursor: pointer;
     color: #333; 
     background-color: #fce8e8;
     border: 2px dashed #ff9999;
