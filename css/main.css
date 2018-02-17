@@ -87,13 +87,22 @@ li a:hover {
 /*    overflow: scroll; */
 }
 
-.centerimage {
-    position: relative;
-    display: block;
-    top: 4%;
- /*   top: 30%; */
-    left: 18%;
-    vertical-align: middle;
+.logone {
+    position: absolute;
+    top: 19%;
+    left: 52%;
+}
+
+.logtwo {
+    position: absolute;
+    top: 19%;
+    left: 58%;
+}
+
+.logthree {
+    position: absolute;
+    top: 19%;
+    left: 64%;
 }
 
 .expedu {
