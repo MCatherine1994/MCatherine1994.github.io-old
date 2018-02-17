@@ -96,13 +96,13 @@ li a:hover {
 .logtwo {
     position: absolute;
     top: 23%;
-    left: 61%;
+    left: 59%;
 }
 
 .logthree {
     position: absolute;
-    top: 25%;
-    left: 67%;
+    top: 23%;
+    left: 65%;
 }
 
 .expedu {
@@ -274,6 +274,6 @@ li a:hover {
 .icon {
    position: absolute;
    top: 20%;
-   left: 18%;
+   left: 15%;
    z-index: 96;
 }
