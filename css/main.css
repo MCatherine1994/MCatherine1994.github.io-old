@@ -271,15 +271,9 @@ li a:hover {
     z-index: 96;
 }
 
-/*.contactinfo {
-    line-height: 200px;
-    height: 200px;
-    text-align: center;
-    top: 50%;
-    left: 50%;
+.icon {
+   position: absolute;
+   top: 20%;
+   left: 18%;
+   z-index: 96;
 }
-
-.contactinfo p {
-    display: inline-block;
-    vertical-align: middle;
-} */
