@@ -269,6 +269,15 @@ li a:hover {
     top: 20%;
     left: 60%;
     z-index: 96;
+    -webkit-transition: width 2s; 
+    -webkit-transition: height 2s;
+    transition: width 2s;
+    transition: height 2s;
+}
+
+.contact img :hover {
+    width: 460px;
+    height: 500px;
 }
 
 .icon {
