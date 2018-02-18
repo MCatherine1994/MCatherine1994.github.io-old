@@ -64,7 +64,7 @@ li a:hover {
     margin-left: 100%;
   }
   to {
-    margin-left: 50%;
+    margin-left: 25%;
   }
 }
 
@@ -73,7 +73,7 @@ li a:hover {
  /*   padding: 12px; */
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    animation-delay: 2s;
+    animation-delay: 4s;
     animation-duration: 2s;
     animation-name: slidein;   
 }
