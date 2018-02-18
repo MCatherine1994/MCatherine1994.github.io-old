@@ -64,7 +64,7 @@ li a:hover {
     margin-left: 100%;
   }
   to {
-    margin-left: 15%;
+    margin-left: 10%;
   }
 }
 
@@ -85,8 +85,10 @@ li a:hover {
     padding: 3%;
     margin-left: auto;
     margin-right: auto;
-    animation-duration: 3s;
-    animation-name: slidein;   
+    -webkit-animation: main 2s;
+    -moz-animation: main 2s;
+    -ms-animation: main 2s;
+    animation: main 2s; 
 }
 
 /* -------------Experience Page---------------------------- */
@@ -283,7 +285,7 @@ li a:hover {
     z-index: 95;  
 }
 
-.contact img {
+.conimg {
     position: absolute;
     display: block;
     margin-left: auto;
@@ -293,7 +295,7 @@ li a:hover {
     z-index: 96;
 }
 
-.contact img:hover {
+.conimg:hover {
     transform: scale(1.5);
     cursor: pointer;
 } 
