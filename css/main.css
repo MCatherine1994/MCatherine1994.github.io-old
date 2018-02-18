@@ -55,7 +55,7 @@ li a:hover {
     padding: 2%;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: slidein;    
 }
 
@@ -64,7 +64,7 @@ li a:hover {
     margin-left: 100%;
   }
   to {
-    margin-left: 25%;
+    margin-left: 15%;
   }
 }
 
@@ -73,8 +73,7 @@ li a:hover {
  /*   padding: 12px; */
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    animation-delay: 4s;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: slidein;   
 }
 
@@ -86,8 +85,7 @@ li a:hover {
     padding: 3%;
     margin-left: auto;
     margin-right: auto;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: slidein;   
 }
 
@@ -297,6 +295,7 @@ li a:hover {
 
 .contact img:hover {
     transform: scale(1.5);
+    cursor: pointer;
 } 
 
 .icon {
