@@ -116,6 +116,15 @@ li a:hover {
     left: 23%;
     width: 270px; 
     box-shadow: 10px 10px #e9e2e2;
+    -webkit-animation: main 2s;
+    -moz-animation: main 2s;
+    -ms-animation: main 2s;
+    animation: main 2s;
+}
+
+@-webkit-keyframes main {
+  0% { -webkit-transform: scaleX(0); }
+  100% { -webkit-transform: scaleX(1); }
 }
 
 .expvulfir {
@@ -269,16 +278,11 @@ li a:hover {
     top: 20%;
     left: 60%;
     z-index: 96;
-    -webkit-transition: width 2s; 
-    -webkit-transition: height 2s;
-    transition: width 2s;
-    transition: height 2s;
 }
 
-.contact img :hover {
-    width: 460px;
-    height: 500px;
-}
+.contact img:hover {
+    transform: scale(1.5);
+} 
 
 .icon {
    position: absolute;
