@@ -55,6 +55,17 @@ li a:hover {
     padding: 2%;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
+    animation-duration: 2s;
+    animation-name: slidein;    
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 50%;
+  }
 }
 
 .home h4 {
@@ -62,18 +73,22 @@ li a:hover {
  /*   padding: 12px; */
     font-family: "Times New Roman", Times, serif;
     text-align: center;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-name: slidein;   
 }
 
 .img-model {
     display: block;
-    border-radius: 50%; /*3px;*/
-    background-color: #c5d5cb; /*#c2d4d8;*/
+    border-radius: 50%; 
+    background-color: #c5d5cb; 
     background-position: center; 
     padding: 3%;
-/*    padding: 20px; */
     margin-left: auto;
     margin-right: auto;
-   /* -webkit-box-reflect: left; */
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-name: slidein;   
 }
 
 /* -------------Experience Page---------------------------- */
