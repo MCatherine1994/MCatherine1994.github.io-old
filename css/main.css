@@ -56,10 +56,10 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     animation-duration: 3s;
-    animation-name: slidein;    
+    animation-name: slideinr;    
 }
 
-@keyframes slidein {
+@keyframes slideinr {
   from {
     margin-left: 100%;
   }
@@ -74,7 +74,16 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     animation-duration: 3s;
-    animation-name: slidein;   
+    animation-name: slideinl;   
+}
+
+@keyframes slideinl {
+  from {
+    margin-right: 100%;
+  }
+  to {
+    margin-left: 4%;
+  }
 }
 
 .img-model {
