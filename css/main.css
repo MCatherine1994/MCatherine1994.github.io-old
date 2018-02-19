@@ -129,8 +129,8 @@ li a:hover {
 
 .eduimg {
    position: absolute;
-   width: 190px;
-   height: 225px;
+/*   width: 190px;
+   height: 225px; */
    opacity: 0.5;
    top: 50%;
    left: 25%;
@@ -139,8 +139,8 @@ li a:hover {
 
 .eduimg {
    position: absolute;
-   width: 190px;
-   height: 225px;
+/* width: 190px;
+   height: 225px; */
    opacity: 0.5;
    top: 50%;
    left: 45%;
@@ -149,8 +149,8 @@ li a:hover {
 
 .eduimg {
    position: absolute;
-   width: 190px;
-   height: 225px;
+/* width: 190px;
+   height: 225px; */
    opacity: 0.5;
    top: 50%;
    left: 65%;
