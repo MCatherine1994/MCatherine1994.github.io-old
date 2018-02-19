@@ -103,9 +103,18 @@ li a:hover {
 /* -------------Experience Page---------------------------- */
 .experience {
  /*   z-index:96; */
-    background-color: #c2ccd6;
+/*    background-color: #c2ccd6; */
     opacity: 0.9;
     position: relative;
+}
+
+.experience::after {
+    content: "";
+    background-color: #c2ccd6;
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 95;  
 }
 
 .expimg {
@@ -113,6 +122,7 @@ li a:hover {
    left: 25%;
    top: 13%;
    transform: scale(1.5, 1.2);	
+   z-index: 96;
 }
 
 .edu {
@@ -129,34 +139,42 @@ li a:hover {
 
 .eduimg {
    position: absolute;
-/*   width: 190px;
-   height: 225px; */
    opacity: 0.5;
    top: 50%;
    left: 25%;
    z-index: 96;	
 }
 
-.eduimg {
+.eduimg:hover {
+  opacity: 1;
+  z-index: 98;
+}
+
+.workimg {
    position: absolute;
-/* width: 190px;
-   height: 225px; */
    opacity: 0.5;
    top: 50%;
    left: 45%;
    z-index: 96;	
 }
 
-.eduimg {
+.workimg:hover {
+  opacity: 1;
+  z-index: 98;
+}
+
+.volimg {
    position: absolute;
-/* width: 190px;
-   height: 225px; */
    opacity: 0.5;
    top: 50%;
    left: 65%;
    z-index: 96;	
 }
 
+.volimg:hover {
+  opacity: 1;
+  z-index: 98;
+}
 
 .show {
     visibility: visible;
