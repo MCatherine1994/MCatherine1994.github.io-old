@@ -271,13 +271,25 @@ li a:hover {
 }
 
 
-/* -------------------------Contact Page-----------------------------------*/
+/* -------------------------Resume Page-----------------------------------*/
+.resume {
+    background: linear-gradient(#aa98cd 31%, #ffffff 31%);
+    position: relative;
+}
 
+.resumeimg {
+    border-color: #e6e6ff; 
+    position: absolute;
+    left: 5%;
+}
+
+
+/* -------------------------Contact Page-----------------------------------*/
 .contact {
  /*   z-index: 95; */
     position: relative; 
  /*   background-image: url("../img/contact-bg3.png"); */
-    background-size: cover;
+ /*   background-size: cover; */
 /*    background: rgba(0, 0, 0); */
 }
 
