@@ -273,14 +273,13 @@ li a:hover {
 
 /* -------------------------Resume Page-----------------------------------*/
 .resume {
-    background: linear-gradient(#e3afbc, #e3e2df);
+    background: #edc7b7;
     position: relative;
 }
 
 .resumeimg {
-    border-color: #e6e6ff; 
     position: absolute;
-    top: 5%;
+    top: 15%;
     left: 30%;
 }
 
