@@ -303,9 +303,14 @@ li a:hover {
 
 .resumenext {
     position: absolute;
+    visibility: hidden;
     top: 15%;
-    left: 45%;
+    left: 58%;
 }
+
+.resumeimg:hover {
+    transform: scale(1.3);
+} 
 
 /* -------------------------Contact Page-----------------------------------*/
 .contact {
