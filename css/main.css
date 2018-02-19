@@ -104,11 +104,15 @@ li a:hover {
 .experience {
  /*   z-index:97; */
     background-color: #c2ccd6;
- /*   opacity: 0.5;
-    filter: alpha(opacity=50);  */
+    opacity: 0.9;
     position: relative;
-/*    background-size: cover; */
-/*    overflow: scroll; */
+}
+
+.expimg {
+   display: block;
+   position: absolute;
+   left: 10%;
+   top: 5%;
 }
 
 .logone {
