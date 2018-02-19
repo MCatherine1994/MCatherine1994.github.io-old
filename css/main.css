@@ -110,9 +110,9 @@ li a:hover {
 
 .expimg {
    position: absolute;
-   left: 18%;
+   left: 25%;
    top: 5%;
-   transform: scale(1.5);	
+   transform: scale(1.2);	
 }
 
 .edu {
