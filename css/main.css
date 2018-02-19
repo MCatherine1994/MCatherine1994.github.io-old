@@ -302,16 +302,9 @@ li a:hover {
 }
 
 .resumenext {
-    visibility: hidden;
     position: absolute;
     top: 15%;
     left: 45%;
-}
-
-.shownext {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
 }
 
 /* -------------------------Contact Page-----------------------------------*/
