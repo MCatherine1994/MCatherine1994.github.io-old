@@ -273,8 +273,9 @@ li a:hover {
 
 /* -------------------------Resume Page-----------------------------------*/
 .resume {
-    background: #edc7b7;
+    background: #9e5a63;
     position: relative;
+    opacity: 0.8;
 }
 
 .resumeimg {
