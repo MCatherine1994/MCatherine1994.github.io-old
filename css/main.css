@@ -270,6 +270,15 @@ li a:hover {
     animation: fadeIn 1s;
 }
 
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
 
 /* -------------------------Resume Page-----------------------------------*/
 .resume {
@@ -285,13 +294,10 @@ li a:hover {
 }
 
 .resumenext {
+    visibility: hidden;
     position: absolute;
     top: 10%;
     left: 60%;
-}
-
-.changep {
-
 }
 
 
