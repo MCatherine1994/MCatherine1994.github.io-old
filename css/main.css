@@ -64,7 +64,7 @@ li a:hover {
     margin-left: 100%;
   }
   to {
-    margin-left: 3.5%;
+    margin-left: 3%;
   }
 }
 
@@ -82,7 +82,7 @@ li a:hover {
     margin-right: 100%;
   }
   to {
-    margin-left: 1%;
+    margin-left: 0.5%;
   }
 }
 
@@ -281,7 +281,13 @@ li a:hover {
 .resumeimg {
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 10%;
+}
+
+.resumenext {
+    position: absolute;
+    top: 10%;
+    left: 50%;
 }
 
 .changep {
