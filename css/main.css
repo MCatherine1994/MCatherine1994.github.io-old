@@ -111,8 +111,8 @@ li a:hover {
 .expimg {
    position: absolute;
    left: 25%;
-   top: 5%;
-   transform: scale(1.2);	
+   top: 13%;
+   transform: scale(1.5, 1.2);	
 }
 
 .edu {
@@ -120,6 +120,8 @@ li a:hover {
    width: 100px;
    height: 100px;
    text-align: center;
+   font-family: "Times New Roman", Times, serif;
+   font: 1.5em;
    top: 60%;
    left: 22%;
    z-index: 97;
@@ -131,10 +133,29 @@ li a:hover {
    height: 225px;
    opacity: 0.5;
    top: 50%;
-   left: 20%;
+   left: 25%;
    z-index: 96;	
 }
 
+.eduimg {
+   position: absolute;
+   width: 190px;
+   height: 225px;
+   opacity: 0.5;
+   top: 50%;
+   left: 45%;
+   z-index: 96;	
+}
+
+.eduimg {
+   position: absolute;
+   width: 190px;
+   height: 225px;
+   opacity: 0.5;
+   top: 50%;
+   left: 65%;
+   z-index: 96;	
+}
 
 
 .show {
