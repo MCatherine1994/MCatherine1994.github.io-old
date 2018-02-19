@@ -289,18 +289,30 @@ li a:hover {
 
 .resumeimg {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 15%;
+    left: 15%;
 }
+
+.resumeimg:hover {
+    transform: scale(1.2);
+} 
 
 .changep {
 
 }
+
 .resumenext {
     visibility: hidden;
+    width: 380px; 
+    background-color: #668599;
+    color: #fff;
+    font-family: "Bradley Hand", cursive;
+    text-align: left;
+    border-radius: 8px;
+    padding: 8px 0;
     position: absolute;
-    top: 10%;
-    left: 60%;
+    top: 30%;
+    left: 45%;
 }
 
 
@@ -337,8 +349,9 @@ li a:hover {
 }
 
 .conimg:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     cursor: pointer;
+    z-index: 96;
 } 
 
 .icon {
