@@ -123,8 +123,8 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 66.5%;
-    left: 24.5%;
+    top: 66%;
+    left: 24%;
     z-index: 97;
 }
 
@@ -145,7 +145,7 @@ li a:hover {
 .edubut {
    position: absolute;
    top: 82%;
-   left: 22%;
+   left: 24%;
 }
 
 .popedu {
@@ -156,7 +156,6 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;
-/*    padding: 8px 0; */
     position: absolute;
     top: 2%;
     left: 2%;
@@ -170,8 +169,8 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 66.5%;
-    left: 47.5%;
+    top: 66%;
+    left: 48.5%;
     z-index: 97;
 }
 
@@ -191,7 +190,7 @@ li a:hover {
 .workbut {
    position: absolute;
    top: 82%;
-   left: 49%;
+   left: 48.5%;
 }
 
 .popwork {
@@ -202,10 +201,9 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;
-/*    padding: 8px 0; */
     position: absolute;
-    top: 2%;
-    left: 2%;
+    top: 15%;
+    left: 15%;
     z-index: 98;
 }
 
@@ -216,8 +214,8 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 68%;
-    left: 69%;
+    top: 66%;
+    left: 71%;
     z-index: 97;
 }
 
@@ -248,7 +246,6 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;
-    padding: 8px 0;
     position: absolute;
 /*    top: 2%;
     left: 2%; */
@@ -292,11 +289,11 @@ li a:hover {
 
 }
 
-.resumenext {
-    visibility: hidden;
+.respag {
+/*    visibility: hidden; */
     position: absolute;
     top: 15%;
-    left: 15%;
+    left: 30%;
 }
 
 .resumenext:hover {
@@ -314,6 +311,7 @@ li a:hover {
      top: 25%;
      font-weight: bold;
      font-size: 2em;
+     color: #e66b19;
 }
 
 /* -------------------------Contact Page-----------------------------------*/
