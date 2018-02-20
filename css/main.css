@@ -132,7 +132,7 @@ li a:hover {
     position: absolute;
     opacity: 0.3;
     top: 59%;
-    left: 25%;
+    left: 21%;
     z-index: 96;
 }
 
@@ -179,7 +179,7 @@ li a:hover {
    position: absolute;
    opacity: 0.3;
    top: 59%;
-   left: 45%;
+   left: 42.5%;
    z-index: 96;	
 }
 
@@ -204,8 +204,8 @@ li a:hover {
     border-radius: 8px;
 /*    padding: 8px 0; */
     position: absolute;
-    bottom: 30%;
-    left: 35%;
+    top: 2%;
+    left: 2%;
     z-index: 98;
 }
 
@@ -216,8 +216,8 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 66.5%;
-    left: 67%;
+    top: 68.5%;
+    left: 69%;
     z-index: 97;
 }
 
@@ -250,8 +250,8 @@ li a:hover {
     border-radius: 8px;
     padding: 8px 0;
     position: absolute;
-    bottom: 10%;
-    left: 65%;
+    top: 2%;
+    left: 2%;
     z-index: 98;
 }
 
