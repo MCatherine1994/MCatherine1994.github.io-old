@@ -130,7 +130,7 @@ li a:hover {
 
 .eduimg {
     position: absolute;
-    filter:blur(5px);
+    opacity: 0.3;
     top: 59%;
     left: 25%;
     z-index: 96;
@@ -146,6 +146,20 @@ li a:hover {
    position: absolute;
    top: 90%;
    left: 27%;
+}
+
+.popedu {
+    visibility: hidden;
+    width: 300px; 
+    background-color: #668599;
+    color: #fff;
+    font-family: "Bradley Hand", cursive;
+    text-align: left;
+    border-radius: 8px;
+    padding: 8px 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
 }
 
 .work {
@@ -179,6 +193,20 @@ li a:hover {
    left: 48%;
 }
 
+.popwork {
+    visibility: hidden;
+    width: 300px; 
+    background-color: #668599;
+    color: #fff;
+    font-family: "Bradley Hand", cursive;
+    text-align: left;
+    border-radius: 8px;
+    padding: 8px 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
 .vol {
     position: absolute;
     text-align: center;
@@ -186,7 +214,7 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 69%;
+    top: 68%;
     left: 67%;
     z-index: 97;
 }
