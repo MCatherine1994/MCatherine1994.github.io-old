@@ -45,7 +45,7 @@
 			   		Location: Victoria </p> 
 				</span>
 			</div>
-			<dic class="workbut" onClick="poptwo()">
+			<div class="workbut" onClick="poptwo()">
 				<button>Learn More</button>
 				<span class="popwork" id="workpop">
 			   		Title: IT - Applicant <br>
@@ -96,9 +96,8 @@
 			<a href="img\Resume01.jpg">
 			<img src="img\Resume01.jpg" alt="resume" class="resumeimg" style="width:385px;height:495px;" >
 			</a>
-			<div class="changep" onClick="nextP()">
-				<i class="fa fa-caret-square-o-right" style="font-size:36px;color:#97aabd; padding-left:48.5%; padding-top:38%;"></i>
-			
+			<div class="changep" onClick="next()">
+				<i class="fa fa-caret-square-o-right" style="font-size:36px;color:#97aabd; padding-left:48.5%; padding-top:38%;"></i>			
 				<span class="resumenext" id="resume">
 					<img src="img\Resume02.jpg" alt="resume" style="width:385px;height:495px;">
 				</span>
@@ -106,7 +105,7 @@
 			
 			<script>
 			// When the user clicks on div, open the popup
-			function nextP() {
+			function next() {
     				var popup = document.getElementById("resume");
     				popup.classList.toggle("show");
 			}
