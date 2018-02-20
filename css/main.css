@@ -157,7 +157,7 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;   
-    top: 49%;
+    top: 52%;
     left: 5%;
     z-index: 98;
 }
@@ -214,8 +214,8 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 37%;
-    left: 40%;
+    top: 41%;
+    left: 38.5%;
     z-index: 98;
 }
 
@@ -271,8 +271,8 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 37%;
-    left: 73.5%; 
+    top: 41%;
+    left: 71.5%; 
     z-index: 98;
 }
 
@@ -323,8 +323,8 @@ li a:hover {
 .respag {
     visibility: hidden; 
     position: absolute;
-    top: 2%;
-    left: 2%;
+    top: 15%;
+    left: 30%;
 }
 
 .respag:hover {
