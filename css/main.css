@@ -157,8 +157,8 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;   
-    top: 20%;
-    left: 20%;
+    top: 47%;
+    left: 13%;
     z-index: 98;
 }
 
@@ -203,8 +203,8 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 15%;
-    left: 15%;
+    top: 20%;
+    left: 42%;
     z-index: 98;
 }
 
@@ -249,8 +249,8 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-/*    top: 2%;
-    left: 2%; */
+    top: 20%;
+    left: 76%; 
     z-index: 98;
 }
 
