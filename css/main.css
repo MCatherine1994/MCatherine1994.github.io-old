@@ -103,7 +103,7 @@ li a:hover {
 /* -------------Experience Page---------------------------- */
 .experience {
  /*   z-index:96; */
-    background-color: #c9d1d8; 
+    background: linear-gradient(to right, #c0b283, #c0b283 33%, #dcd0c0 33%, #dcd0c0 66.6%,#f4f4f4 66.6%);
     position: relative;
 }
 
@@ -114,15 +114,6 @@ li a:hover {
 /*    top: 5%;
     left: 12.5%;  */
     z-index: 96;
-}
-
-.sectone {
-   position: absolute;
-   background-color: #c0b283;
-   height: 45%;
-   width: 33.3%;
-   top:55%;
-   z-index: 95;
 }
 
 .edu {
@@ -171,16 +162,6 @@ li a:hover {
     z-index: 98;
 }
 
-.secttwo {
-   position: absolute;
-   background-color: #dcd0c0;
-   height: 45%;
-   width: 33.3%;
-   top:55%;
-   left: 33.3%;
-   z-index: 95;
-}
-
 .work {
     position: absolute;
     text-align: center;
@@ -225,16 +206,6 @@ li a:hover {
     top: 15%;
     left: 15%;
     z-index: 98;
-}
-
-.sectthr {
-   position: absolute;
-   background-color: #f4f4f4;
-   height: 45%;
-   width: 33.4%;
-   top:55%;
-   left: 66.6%;
-   z-index: 95;
 }
 
 .vol {
