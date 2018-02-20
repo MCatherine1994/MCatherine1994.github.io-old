@@ -123,7 +123,7 @@ li a:hover {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 1.8em;
     font-weight: bold;
-    top: 67%;
+    top: 69%;
     left: 11%;
     z-index: 97;
 }
@@ -131,7 +131,7 @@ li a:hover {
 .eduimg {
     position: absolute;
     opacity: 0.3;
-    top: 56.5%;
+    top: 58.5%;
     left: 12%;
     z-index: 96;
 }
@@ -143,7 +143,7 @@ li a:hover {
 
 .edubut {
    position: absolute;
-   top: 76%;
+   top: 78%;
    left: 13%;
    z-index: 97;
 }
@@ -157,7 +157,7 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;   
-    top: 47%;
+    top: 49%;
     left: 5%;
     z-index: 98;
 }
@@ -169,7 +169,7 @@ li a:hover {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 1.8em;
     font-weight: bold;
-    top: 67%;
+    top: 69%;
     left: 46%;
     z-index: 97;
 }
@@ -177,7 +177,7 @@ li a:hover {
 .workimg {
    position: absolute;
    opacity: 0.3;
-   top: 56.5%;
+   top: 58.5%;
    left: 44%;
    z-index: 96;	
 }
@@ -189,7 +189,7 @@ li a:hover {
 
 .workbut {
    position: absolute;
-   top: 76%;
+   top: 78%;
    left: 46%;
    z-index: 97;
 }
@@ -203,7 +203,7 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 33.5%;
+    top: 35.5%;
     left: 40%;
     z-index: 98;
 }
@@ -215,7 +215,7 @@ li a:hover {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 1.8em;
     font-weight: bold;
-    top: 67%;
+    top: 69%;
     left: 77.5%;
     z-index: 97;
 }
@@ -223,7 +223,7 @@ li a:hover {
 .volimg {
    position: absolute;
    opacity: 0.3;
-   top: 57%;
+   top: 59%;
    left: 78%;
    z-index: 96;	
 }
@@ -235,7 +235,7 @@ li a:hover {
 
 .volbut {
     position: absolute;
-    top: 76%;
+    top: 78%;
     left: 79%;
     z-index: 97;
 }
@@ -249,7 +249,7 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 33.5%;
+    top: 35.5%;
     left: 73.5%; 
     z-index: 98;
 }
