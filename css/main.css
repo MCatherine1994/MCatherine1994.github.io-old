@@ -124,7 +124,7 @@ li a:hover {
     font-size: 1.8em;
     font-weight: bold;
     top: 67%;
-    left: 11.5%;
+    left: 9.5%;
     z-index: 97;
 }
 
@@ -157,8 +157,8 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;   
-    top: 47%;
-    left: 13%;
+    top: 55%;
+    left: 5%;
     z-index: 98;
 }
 
@@ -178,7 +178,7 @@ li a:hover {
    position: absolute;
    opacity: 0.3;
    top: 56.5%;
-   left: 44%;
+   left: 41%;
    z-index: 96;	
 }
 
@@ -203,8 +203,8 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 20%;
-    left: 42%;
+    top: 28%;
+    left: 30%;
     z-index: 98;
 }
 
@@ -249,8 +249,8 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 20%;
-    left: 76%; 
+    top: 28%;
+    left: 2%; 
     z-index: 98;
 }
 
