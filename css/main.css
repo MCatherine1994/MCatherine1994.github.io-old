@@ -109,6 +109,8 @@ li a:hover {
 
 .expimg {
     position: absolute;
+    right:15%;
+    bottom: 5%;
     transform: scale(0.6, 0.7);	
     z-index: 96;
 }
@@ -116,9 +118,9 @@ li a:hover {
 .edu {
     position: absolute;
     text-align: center;
-    color: #e2e9e9;
+    color: #dcd0c0;
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     top: 70%;
     left: 28%;
@@ -130,7 +132,7 @@ li a:hover {
     opacity: 0.5;
     top: 60%;
     left: 25%;
-    z-index: 96;	
+    z-index: 96;
 }
 
 .eduimg:hover {
@@ -141,9 +143,9 @@ li a:hover {
 .work {
     position: absolute;
     text-align: center;
-    color: #e2e9e9;
+    color: #dcd0c0;
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     top: 70%;
     left: 48%;
@@ -166,9 +168,9 @@ li a:hover {
 .vol {
     position: absolute;
     text-align: center;
-    color: #e2e9e9;
+    color: #dcd0c0;
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     top: 70%;
     left: 68%;
