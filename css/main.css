@@ -293,15 +293,28 @@ li a:hover {
 }
 
 .resumenext {
-    position: absolute;
     visibility: hidden;
-/*    top: 15%;
-    left: 58%; */
+    position: absolute;
+    top: 15%;
+    left: 15%;
 }
 
 .resumenext:hover {
     transform: scale(1.3);
 } 
+
+/* -------------------------Project Page-----------------------------------*/
+.project {
+     background-color: #e8c47d;
+     position: relative;
+}
+
+.prop {
+     position: absolute;
+     top: 25%;
+     font-weight: bold;
+     font-size: 2em;
+}
 
 /* -------------------------Contact Page-----------------------------------*/
 .contact {
