@@ -143,7 +143,7 @@ li a:hover {
 
 .edubut {
    position: absolute;
-   top: 78%;
+   top: 79%;
    left: 13%;
    z-index: 97;
 }
@@ -160,6 +160,17 @@ li a:hover {
     top: 49%;
     left: 5%;
     z-index: 98;
+}
+
+.popedu::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #668599 transparent transparent transparent;
 }
 
 .work {
@@ -189,7 +200,7 @@ li a:hover {
 
 .workbut {
    position: absolute;
-   top: 78%;
+   top: 79%;
    left: 46%;
    z-index: 97;
 }
@@ -203,9 +214,20 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 35.5%;
+    top: 37%;
     left: 40%;
     z-index: 98;
+}
+
+.popwork::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #668599 transparent transparent transparent;
 }
 
 .vol {
@@ -235,7 +257,7 @@ li a:hover {
 
 .volbut {
     position: absolute;
-    top: 78%;
+    top: 79%;
     left: 79%;
     z-index: 97;
 }
@@ -249,9 +271,20 @@ li a:hover {
     text-align: left;
     border-radius: 8px;
     position: absolute;
-    top: 35.5%;
+    top: 37%;
     left: 73.5%; 
     z-index: 98;
+}
+
+.popvol::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #668599 transparent transparent transparent;
 }
 
 .show {
