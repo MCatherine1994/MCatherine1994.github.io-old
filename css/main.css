@@ -130,7 +130,6 @@ li a:hover {
 
 .eduimg {
     position: absolute;
-    opacity: 0.5;
     filter:blur(5px);
     top: 59%;
     left: 25%;
@@ -140,12 +139,13 @@ li a:hover {
 .eduimg:hover {
     opacity: 1;
     z-index: 98;
+    filter: none;
 }
 
 .edubut {
    position: absolute;
-   top: 85%;
-   left: 5%;
+   top: 90%;
+   left: 27%;
 }
 
 .work {
@@ -175,7 +175,7 @@ li a:hover {
 
 .workbut {
    position: absolute;
-   top: 72%;
+   top: 90%;
    left: 48%;
 }
 
@@ -200,14 +200,14 @@ li a:hover {
 }
 
 .volimg:hover {
-   opacity: 1;
-   z-index: 98;
+    opacity: 1;
+    z-index: 98;
 }
 
 .volbut {
     position: absolute;
-    top: 72%;
-   left: 68%;
+    top: 90%;
+    left: 68%;
 }
 
 .show {
