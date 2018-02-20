@@ -158,8 +158,9 @@ li a:hover {
     border-radius: 8px;
     padding: 8px 0;
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top: 10%;
+    left: 18%;
+    z-index: 98;
 }
 
 .work {
@@ -203,8 +204,9 @@ li a:hover {
     border-radius: 8px;
     padding: 8px 0;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 45%;
+    z-index: 98;
 }
 
 .vol {
