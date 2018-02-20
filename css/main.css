@@ -130,7 +130,7 @@ li a:hover {
 
 .eduimg {
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.2;
     top: 58%;
     left: 25%;
     z-index: 96;
@@ -161,7 +161,7 @@ li a:hover {
 
 .workimg {
    position: absolute;
-   opacity: 0.5;
+   opacity: 0.2;
    top: 58%;
    left: 45%;
    z-index: 96;	
@@ -192,7 +192,7 @@ li a:hover {
 
 .volimg {
    position: absolute;
-   opacity: 0.5;
+   opacity: 0.2;
    top: 58%;
    left: 65%;
    z-index: 96;	
