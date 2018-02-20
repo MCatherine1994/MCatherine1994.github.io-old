@@ -109,10 +109,10 @@ li a:hover {
 
 .expimg {
     position: absolute;
-    width: 700px;
-    height: 530px;
+    width: 800px;
+    height: 500px;
     top: 5%;
-    left: 8%;
+    left: 12%;
     z-index: 96;
 }
 
@@ -142,6 +142,7 @@ li a:hover {
 }
 
 .edubut {
+   position: absolute;
    top: 72%;
    left: 28%;
 }
@@ -167,11 +168,12 @@ li a:hover {
 }
 
 .workimg:hover {
-  opacity: 1;
-  z-index: 98;
+   opacity: 1;
+   z-index: 98;
 }
 
 .workbut {
+   position: absolute;
    top: 72%;
    left: 48%;
 }
@@ -197,12 +199,13 @@ li a:hover {
 }
 
 .volimg:hover {
-  opacity: 1;
-  z-index: 98;
+   opacity: 1;
+   z-index: 98;
 }
 
 .volbut {
-   top: 72%;
+    position: absolute;
+    top: 72%;
    left: 68%;
 }
 
