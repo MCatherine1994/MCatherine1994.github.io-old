@@ -119,6 +119,8 @@ li a:hover {
 .sectone {
    position: absolute;
    background-color: #c0b283;
+   height: 45%;
+   width: 33.3%;
    top:55%;
    z-index: 95;
 }
@@ -172,6 +174,8 @@ li a:hover {
 .secttwo {
    position: absolute;
    background-color: #dcd0c0;
+   height: 45%;
+   width: 33.3%;
    top:55%;
    left: 33.3%;
    z-index: 95;
@@ -225,6 +229,8 @@ li a:hover {
 .sectthr {
    position: absolute;
    background-color: #f4f4f4;
+   height: 45%;
+   width: 33.4%;
    top:55%;
    left: 66.6%;
    z-index: 95;
