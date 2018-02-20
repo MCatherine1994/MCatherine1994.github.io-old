@@ -132,7 +132,7 @@ li a:hover {
     position: absolute;
     opacity: 0.3;
     top: 57%;
-    left: 18%;
+    left: 12%;
     z-index: 96;
 }
 
@@ -143,8 +143,8 @@ li a:hover {
 
 .edubut {
    position: absolute;
-   top: 74%;
-   left: 15%;
+   top: 76%;
+   left: 13%;
    z-index: 97;
 }
 
@@ -157,8 +157,8 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;   
-    bottom: 10%;
-    right: 10%;
+    top: 20%;
+    left: 20%;
     z-index: 98;
 }
 
@@ -170,7 +170,7 @@ li a:hover {
     font-size: 1.8em;
     font-weight: bold;
     top: 67%;
-    left: 47%;
+    left: 46%;
     z-index: 97;
 }
 
@@ -178,7 +178,7 @@ li a:hover {
    position: absolute;
    opacity: 0.3;
    top: 57%;
-   left: 40%;
+   left: 46%;
    z-index: 96;	
 }
 
@@ -189,7 +189,7 @@ li a:hover {
 
 .workbut {
    position: absolute;
-   top: 74%;
+   top: 76%;
    left: 46%;
    z-index: 97;
 }
@@ -216,7 +216,7 @@ li a:hover {
     font-size: 1.8em;
     font-weight: bold;
     top: 67%;
-    left: 77%;
+    left: 77.5%;
     z-index: 97;
 }
 
@@ -235,8 +235,8 @@ li a:hover {
 
 .volbut {
     position: absolute;
-    top: 74%;
-    left: 78.5%;
+    top: 76%;
+    left: 79%;
     z-index: 97;
 }
 
