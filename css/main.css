@@ -124,14 +124,15 @@ li a:hover {
     font-size: 1.5em;
     font-weight: bold;
     top: 68%;
-    left: 28%;
+    left: 26.5%;
     z-index: 97;
 }
 
 .eduimg {
     position: absolute;
-    opacity: 0.2;
-    top: 58%;
+    opacity: 0.5;
+    filter:blur(5px);
+    top: 59%;
     left: 25%;
     z-index: 96;
 }
@@ -155,14 +156,14 @@ li a:hover {
     font-size: 1.5em;
     font-weight: bold;
     top: 68%;
-    left: 48%;
+    left: 48.5%;
     z-index: 97;
 }
 
 .workimg {
    position: absolute;
-   opacity: 0.2;
-   top: 58%;
+   opacity: 0.3;
+   top: 59%;
    left: 45%;
    z-index: 96;	
 }
@@ -185,14 +186,14 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 68%;
-    left: 68%;
+    top: 69%;
+    left: 67%;
     z-index: 97;
 }
 
 .volimg {
    position: absolute;
-   opacity: 0.2;
+   opacity: 0.3;
    top: 58%;
    left: 65%;
    z-index: 96;	
