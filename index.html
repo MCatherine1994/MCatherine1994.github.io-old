@@ -59,7 +59,7 @@
 			   		Location: Victoria </p> 	
 				</span>
 			</div>
-<!--			<div class="volbut" onClick="popthree">
+			<div class="volbut" onClick="popthree">
 				<button>Learn More</button>
 				<span class="popvol" id="volpop">
 			   		Title: Volunteer <br>
@@ -72,7 +72,7 @@
 			   		Time: 201605 <br>
 			   		LocationL: Victoria </p>  	
 				</span>
-			</div>  -->
+			</div>  
 			<script>
 			// When the user clicks on div, open the popup
 			function popone() {
@@ -81,6 +81,10 @@
 			}
 			function poptwo() {
     				var popup = document.getElementById("workpop");
+    				popup.classList.toggle("show");
+			}
+			function popthree() {
+    				var popup = document.getElementById("volpop");
     				popup.classList.toggle("show");
 			}
 			</script>
@@ -95,21 +99,19 @@
 			<div class="changep" onClick="nextP()">
 				<i class="fa fa-caret-square-o-right" style="font-size:36px;color:#97aabd; padding-left:48.5%; padding-top:38%;"></i>
 			
-				<span class="resumenext" id="nextp">
+				<span class="resumenext" id="resume">
 					<img src="img\Resume02.jpg" alt="resume" style="width:385px;height:495px;">
 				</span>
 			</div>
 			
-			<script>			
+			<script>
+			// When the user clicks on div, open the popup
 			function nextP() {
-    				var popup = document.getElementById("nextp");
+    				var popup = document.getElementById("resume");
     				popup.classList.toggle("show");
 			}
-			</script> 
-		</div>  
-		
-		
-		
+			</script>
+		</div>  	
 		
 	<!--   Project Page  -->
 		<div id="four">
