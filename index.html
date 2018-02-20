@@ -34,10 +34,56 @@
 			<p style="text-align: center;" class="work">Work</p>  
 			<a href="https://www.balletvictoria.ca/"><img class="volimg" src="img\bv.png" alt="bv" style="width:150px;height:185px;"></a>
 			<p style="text-align: center;" class="vol">Volunteer</p>  
-			
-			<button class="edubut">Learn More</button>
-			<button class="workbut">Learn More</button>
-			<button class="volbut">Learn More</button>  
+						
+			<div class="edubut" onClick="popone">
+				<button>Learn More</button>
+				<span class="popedu" id="edupop">
+			   		Title: Student <br>
+			   		University: University of Victoria <br>
+			   		Marjor: Computer Science with Statistics Minor <br>
+			   		Time: 2015-Present <br>
+			   		Location: Victoria </p> 
+				</span>
+			</div>
+			<dic class="workbut" onClick="poptwo">
+				<button>Learn More</button>
+				<span class="popwork" id="workpop">
+			   		Title: IT - Applicant <br>
+			  		Company: BC Transit <br>
+			   		Time: 201801-Present <br>
+			   		Location: Victoria <br>
+					<br>
+					Title: Business System Analysis <br>
+					Company: <a href="https://www.maximuscanada.ca/">Maximus</a> <br>
+			   		Time: 201701-201712 <br>
+			   		Location: Victoria </p> 	
+				</span>
+			</div>
+<!--			<div class="volbut" onClick="popthree">
+				<button>Learn More</button>
+				<span class="popvol" id="volpop">
+			   		Title: Volunteer <br>
+			   		Company: Ballet Victoria <br>
+			   		Time: 2015-Present <br>
+			   		Location: Victoria <br>
+					<br>
+					Title: Volunteer <br>
+		 	  	        Company: <a href="http://aigicrv.org/2018/">AI/GI/CRV conference</a> <br>
+			   		Time: 201605 <br>
+			   		LocationL: Victoria </p>  	
+				</span>
+			</div>  -->
+			<script>
+			// When the user clicks on div, open the popup
+			function popone() {
+    				var popup = document.getElementById("edupop");
+    				popup.classList.toggle("show");
+			}
+			function poptwo() {
+    				var popup = document.getElementById("workpop");
+    				popup.classList.toggle("show");
+			}
+			</script>
 	
 		</div>
 		
