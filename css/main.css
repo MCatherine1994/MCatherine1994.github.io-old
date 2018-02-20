@@ -123,8 +123,8 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 68%;
-    left: 26.5%;
+    top: 66.5%;
+    left: 27%;
     z-index: 97;
 }
 
@@ -156,10 +156,10 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;
-    padding: 8px 0;
+/*    padding: 8px 0; */
     position: absolute;
-    bottom: 10%;
-    left: 5%;
+    top: 2%;
+    left: 2%;
     z-index: 98;
 }
 
@@ -170,7 +170,7 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 68%;
+    top: 66.5%;
     left: 48.5%;
     z-index: 97;
 }
@@ -202,10 +202,10 @@ li a:hover {
     font-family: "Bradley Hand", cursive;
     text-align: left;
     border-radius: 8px;
-    padding: 8px 0;
+/*    padding: 8px 0; */
     position: absolute;
-    bottom: 10%;
-    left: 45%;
+    bottom: 30%;
+    left: 35%;
     z-index: 98;
 }
 
@@ -216,7 +216,7 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
     font-weight: bold;
-    top: 68%;
+    top: 66.5%;
     left: 67%;
     z-index: 97;
 }
@@ -240,7 +240,7 @@ li a:hover {
     left: 68%;
 }
 
-.popwork {
+.popvol {
     visibility: hidden;
     width: 300px; 
     background-color: #668599;
