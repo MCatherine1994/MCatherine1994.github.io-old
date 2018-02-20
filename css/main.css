@@ -111,14 +111,14 @@ li a:hover {
     position: absolute;
     left: 29%;
     top: 13%;
-    transform: scale(1.3, 1.1);	
+    transform: scale(0.6, 0.7);	
     z-index: 96;
 }
 
 .edu {
     position: absolute;
     text-align: center;
-    color: #c98474;
+    color: #e2e9e9;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.3em;
     font-weight: bold;
@@ -143,7 +143,7 @@ li a:hover {
 .work {
     position: absolute;
     text-align: center;
-    color: #c98474;
+    color: #e2e9e9;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.3em;
     font-weight: bold;
@@ -168,11 +168,11 @@ li a:hover {
 .vol {
     position: absolute;
     text-align: center;
-    color: #c98474;
+    color: #e2e9e9;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.3em;
     font-weight: bold;
-    top: 60%;
+    top: 70%;
     left: 68%;
     z-index: 97;
 }
