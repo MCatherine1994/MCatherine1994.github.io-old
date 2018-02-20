@@ -121,10 +121,10 @@ li a:hover {
     text-align: center;
     color: #9e5a63;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: bold;
     top: 67%;
-    left: 16%;
+    left: 14%;
     z-index: 97;
 }
 
@@ -143,8 +143,8 @@ li a:hover {
 
 .edubut {
    position: absolute;
-   top: 70%;
-   left: 24%;
+   top: 74%;
+   left: 15%;
    z-index: 97;
 }
 
@@ -166,8 +166,8 @@ li a:hover {
     position: absolute;
     text-align: center;
     color: #9e5a63;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.8em;
     font-weight: bold;
     top: 67%;
     left: 47%;
@@ -189,8 +189,8 @@ li a:hover {
 
 .workbut {
    position: absolute;
-   top: 70%;
-   left: 48.5%;
+   top: 74%;
+   left: 46%;
    z-index: 97;
 }
 
@@ -212,8 +212,8 @@ li a:hover {
     position: absolute;
     text-align: center;
     color: #9e5a63;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.8em;
     font-weight: bold;
     top: 67%;
     left: 77%;
@@ -224,7 +224,7 @@ li a:hover {
    position: absolute;
    opacity: 0.3;
    top: 57%;
-   left: 77%;
+   left: 78%;
    z-index: 96;	
 }
 
@@ -235,8 +235,8 @@ li a:hover {
 
 .volbut {
     position: absolute;
-    top: 70%;
-    left: 77%;
+    top: 74%;
+    left: 78.5%;
     z-index: 97;
 }
 
