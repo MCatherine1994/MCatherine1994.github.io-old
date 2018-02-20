@@ -109,9 +109,10 @@ li a:hover {
 
 .expimg {
     position: absolute;
-    right:2%;
-    bottom: 2%;
-    transform: scale(0.6, 0.7);	
+    width: 500px;
+    height: 380px;
+    top: 5%;
+    left: 5%;
     z-index: 96;
 }
 
@@ -123,7 +124,7 @@ li a:hover {
     font-size: 1.5em;
     font-weight: bold;
     top: 70%;
-    left: 28%;
+    left: 30%;
     z-index: 97;
 }
 
@@ -148,7 +149,7 @@ li a:hover {
     font-size: 1.5em;
     font-weight: bold;
     top: 70%;
-    left: 48%;
+    left: 50%;
     z-index: 97;
 }
 
@@ -173,7 +174,7 @@ li a:hover {
     font-size: 1.5em;
     font-weight: bold;
     top: 70%;
-    left: 68%;
+    left: 70%;
     z-index: 97;
 }
 
