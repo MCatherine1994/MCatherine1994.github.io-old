@@ -109,10 +109,10 @@ li a:hover {
 
 .expimg {
     position: absolute;
-    width: 500px;
-    height: 380px;
+    width: 750px;
+    height: 630px;
     top: 5%;
-    left: 5%;
+    left: 8%;
     z-index: 96;
 }
 
