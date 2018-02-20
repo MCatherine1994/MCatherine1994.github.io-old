@@ -132,7 +132,7 @@ li a:hover {
     position: absolute;
     opacity: 0.3;
     top: 59%;
-    left: 21%;
+    left: 18.5%;
     z-index: 96;
 }
 
@@ -145,7 +145,7 @@ li a:hover {
 .edubut {
    position: absolute;
    top: 82%;
-   left: 27%;
+   left: 22%;
 }
 
 .popedu {
@@ -191,7 +191,7 @@ li a:hover {
 .workbut {
    position: absolute;
    top: 82%;
-   left: 48%;
+   left: 49%;
 }
 
 .popwork {
@@ -237,7 +237,7 @@ li a:hover {
 .volbut {
     position: absolute;
     top: 82%;
-    left: 68%;
+    left: 72%;
 }
 
 .popvol {
