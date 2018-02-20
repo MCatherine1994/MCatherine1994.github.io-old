@@ -124,14 +124,14 @@ li a:hover {
     font-size: 1.8em;
     font-weight: bold;
     top: 67%;
-    left: 14%;
+    left: 11.5%;
     z-index: 97;
 }
 
 .eduimg {
     position: absolute;
     opacity: 0.3;
-    top: 57%;
+    top: 56.5%;
     left: 12%;
     z-index: 96;
 }
@@ -177,8 +177,8 @@ li a:hover {
 .workimg {
    position: absolute;
    opacity: 0.3;
-   top: 57%;
-   left: 46%;
+   top: 56.5%;
+   left: 44%;
    z-index: 96;	
 }
 
@@ -286,10 +286,6 @@ li a:hover {
 .resumeimg:hover {
     transform: scale(1.3);
 } 
-
-.changep {
-
-}
 
 .respag {
     visibility: hidden; 
