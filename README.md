@@ -7,6 +7,7 @@ http://MCatherine1994.github.io
 HTML tutorial: https://www.w3schools.com/html/default.asp  
 CSS tutorial: https://www.w3schools.com/css/default.asp  
 Icon tutorial: https://www.w3schools.com/icons/  
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ## **Tools**
 Conver PDF to JPG: https://pdf2jpg.net  
