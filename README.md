@@ -3,7 +3,7 @@
 http://MCatherine1994.github.io 
 
 ## **Tutorial**  
-Simple start: http://jmcglone.com/guides/github-pages/  
+[Simple start](http://jmcglone.com/guides/github-pages/)  
 HTML tutorial: https://www.w3schools.com/html/default.asp  
 CSS tutorial: https://www.w3schools.com/css/default.asp  
 Icon tutorial: https://www.w3schools.com/icons/  
