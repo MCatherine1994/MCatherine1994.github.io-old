@@ -26,9 +26,3 @@ class Website extends Component {
   }
 }
 export default Website;
-
-Website.defaultProps = {
-};
-
-Website.propTypes = {
-};
