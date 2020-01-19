@@ -23,7 +23,9 @@ class HomePage extends Component {
         <h2>H I T H I S I S</h2>
         <h4>DA MENG</h4>
         {/* <img class="img-model" src="img\selfi3-2.png" alt="Selfi">			 */}
+        <div className="home-card uk-card uk-card-default uk-card-body uk-align-center">
         </div>
+      </div>
     );
   }
 }
