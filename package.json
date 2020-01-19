@@ -13,7 +13,8 @@
     "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "^3.3.0"
+    "react-scripts": "^3.3.0",
+    "uikit": "^3.2.7"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
