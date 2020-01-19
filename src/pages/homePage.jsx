@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, View} from 'react-native';
 
-const styles = StyleSheet.create({
-  RectangleShapeView: {
-    marginTop: 20,
-    width: 120 * 2,
-    height: 120,
-    borderColor: '#c5d5cb'
-  }
-});
+import "../../node_modules/uikit/src/less/uikit.theme.less";
 
 /**
 * A HomePage component
@@ -32,9 +24,8 @@ class HomePage extends Component {
         <h2>H I T H I S I S</h2>
         <h4>DA MENG</h4>
         {/* <img class="img-model" src="img\selfi3-2.png" alt="Selfi">			 */}
-        <View className="home-container" style={styles.RectangleShapeView}>
-          Test Container
-        </View>
+        <div className="uk-card uk-card-default uk-card-body uk-align-center">
+        </div>
       </div>
     );
   }
