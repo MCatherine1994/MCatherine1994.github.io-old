@@ -19,9 +19,11 @@ class HomePage extends Component {
   */
   render() {
     return (
-      <div>
-        HITHISIS DAMENG
-      </div> 
+      <div id="one" className="home">
+        <h2>H I T H I S I S</h2>
+        <h4>DA MENG</h4>
+        {/* <img class="img-model" src="img\selfi3-2.png" alt="Selfi">			 */}
+        </div>
     );
   }
 }
