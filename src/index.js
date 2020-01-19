@@ -1,6 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Website from './pages/websitePage';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import App from "./pages/websitePage";
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<Website />, rootElement);
+ReactDOM.render(<App />, rootElement);
