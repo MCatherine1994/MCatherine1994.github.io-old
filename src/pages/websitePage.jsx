@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import "node_modules/uikit/src/less/uikit.theme.less";
+require("../../node_modules/uikit/src/less/uikit.theme.less");
 
 /**s
 * A Website component
