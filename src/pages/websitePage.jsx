@@ -11,8 +11,6 @@ class Website extends Component {
   */
   constructor(props) {
     super(props);
-    this.state = { anyState: true };
-    this.handleChange = this.handleChange.bind(this);
   }
 
   /**
