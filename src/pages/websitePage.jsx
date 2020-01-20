@@ -23,6 +23,11 @@ class Website extends Component {
   render() { 
     return (
       <div>
+        <div className="home-title uk-align-center">
+          <h2>H I T H I S I S</h2>
+          <h4>DA MENG</h4>
+        </div>
+        
         <nav className="uk-align-left"> 
           <ul>
             <li><a href="#one">Home</a></li>
