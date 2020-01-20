@@ -22,11 +22,11 @@ class HomePage extends Component {
   render() {
     return (
       <div id="one" className="home">
-        <h2>H I T H I S I S</h2>
-        <h4>DA MENG</h4>
+        <h2 className="uk-align-center">H I T H I S I S</h2>
+        <h4 className="uk-align-center">DA MENG</h4>
         
         <div className="home-container uk-card uk-card-default uk-card-body uk-align-center">
-          <img className="img-model" src="public\img\selfi.png" alt="Selfi"/>			
+          <img className="img-model" src="public/img/selfi.png" alt="Selfi"/>			
         </div>
       </div>
     );

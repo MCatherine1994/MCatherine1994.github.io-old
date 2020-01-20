@@ -23,7 +23,7 @@ class Website extends Component {
   render() {
     return (
       <div>
-        <nav className="uk-align-right" uk-sticky="bottom: #offset">
+        <nav className="uk-align-center" uk-sticky="bottom: #offset">
           <ul>
             <li><a href="#one">Home</a></li>
             <li><a href="#two">Experience</a></li>
