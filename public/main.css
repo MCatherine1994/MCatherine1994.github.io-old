@@ -16,24 +16,20 @@ ul{
     list-style: none;
     text-align: center;
     /* position: fixed; */
-    /* bottom: 0; */
     margin: auto;
-    padding-top: 30%;
-    padding-right: 10;
+    padding-top: 120%;
+    padding-left: 5%;
     /* width: 96.5%; */
-    /* overflow: scroll; */
 }
 
 li{
     font-family: "Times New Roman", Times, serif;
-    /* display: inline-block; */
-    /*float: left; */
 }
 
 li a {
     display: block;
     font-size: 1.2em;
-    text-align: right;
+    text-align: left;
     text-decoration: none;
     color: #9fa8a3;
     padding: 10px; 
@@ -56,6 +52,7 @@ li a:hover {
     color:#9fa8a3;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
+    margin-top: 0.5% !important;
 }
 
 .home-container {
@@ -65,7 +62,7 @@ li a:hover {
 }
 
 .img-model {
-    display: block;
+    /* display: block; */
     border-radius: 50%; 
     background-color: #c5d5cb; 
     background-position: center; 
