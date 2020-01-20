@@ -20,7 +20,7 @@ class Website extends Component {
   * Renders a website component
   * @returns {JSX} returns React element
   */
-  render() { // uk-sticky="bottom: #offset"
+  render() { 
     return (
       <div>
         <nav className="uk-align-right"> 
