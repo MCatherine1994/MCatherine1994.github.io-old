@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import UIkit from 'uikit';
 
 import "../../node_modules/uikit/src/less/uikit.theme.less";
 
@@ -26,7 +25,7 @@ class HomePage extends Component {
         <h4 className="uk-align-center">DA MENG</h4>
         
         <div className="home-container uk-card uk-card-default uk-card-body uk-align-center">
-          <img className="img-model" src="public/img/selfi.png" alt="Selfi"/>			
+          <img className="img-model" src="../../public/img/selfi.png" alt="Selfi"/>			
         </div>
       </div>
     );
