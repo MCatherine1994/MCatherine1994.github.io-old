@@ -24,18 +24,18 @@ ul{
 }
 
 li{
-     font-family: "Times New Roman", Times, serif;
-     display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    /* display: inline-block; */
     /*float: left; */
 }
 
 li a {
     display: block;
     font-size: 1.2em;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     color: #9fa8a3;
-    padding: 30px; 
+    padding: 10px; 
 }
 
 li a:hover {
@@ -48,17 +48,13 @@ li a:hover {
     padding-top: 2%;
     padding-bottom: 1%;
     font-family: "Times New Roman", Times, serif;
-    text-align: center;
-    animation-duration: 3s;
-    animation-name: slideinr;    
+    text-align: center; 
 }
 
 .home h4 {
     color:#9fa8a3;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    animation-duration: 3s;
-    animation-name: slideinl;   
 }
 
 .home-container {
