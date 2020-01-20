@@ -11,13 +11,14 @@ body {
 }
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
-ul{
+nav{
     z-index: 100;
     list-style: none;
     text-align: center;
     margin: auto;
     padding-top: 120%;
     padding-left: 5%;
+    position: relative;
     /* width: 96.5%; */
 }
 
