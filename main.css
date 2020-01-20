@@ -16,7 +16,7 @@ body {
     list-style: none;
     text-align: center;
     margin: auto;
-    padding-top: 120%;
+    padding-top: 60%;
     padding-left: 5%;
 }
 
@@ -50,7 +50,7 @@ body {
 .website-page h4 {
     color:#9fa8a3;
     font-family: "Times New Roman", Times, serif;
-    /* text-align: center; */
+    text-align: center;
     margin-top: 0.5% !important;
     padding-right: 7%;
 }
