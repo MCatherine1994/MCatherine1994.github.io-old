@@ -20,7 +20,7 @@ ul{
     bottom: 0;
     margin: auto;
     padding: auto;
-    width: 96.5%;
+    /* width: 96.5%; */
     overflow: scroll;
 }
 
@@ -63,14 +63,14 @@ li a:hover {
 }
 
 .home-container {
-    height: 30%;
+    height: 40%;
     width: 70%;
     z-index: 90 !important;
 }
 
 .img-model {
     display: block;
-    border-radius: 5%; 
+    border-radius: 50%; 
     background-color: #c5d5cb; 
     background-position: center; 
     padding: 3%;
