@@ -1,5 +1,5 @@
-/* html, body { height: 100%; padding: 0; margin: 0; }
-div { 
+html, body { height: 100%; padding: 0; margin: 0; }
+/* div { 
 	width: 100%; 
 	height: 100%; 
 } */
@@ -18,7 +18,8 @@ ul{
     /* position: fixed; */
     /* bottom: 0; */
     margin: auto;
-    padding: auto;
+    padding-top: 30%;
+    padding-right: 10;
     /* width: 96.5%; */
     /* overflow: scroll; */
 }
@@ -46,7 +47,7 @@ li a:hover {
 .home h2 {
     color:#9fa8a3;
     padding-top: 2%;
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
     font-family: "Times New Roman", Times, serif;
     text-align: center; 
 }
