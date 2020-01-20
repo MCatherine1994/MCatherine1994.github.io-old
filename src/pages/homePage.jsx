@@ -24,8 +24,9 @@ class HomePage extends Component {
       <div id="one" className="home">
         <h2>H I T H I S I S</h2>
         <h4>DA MENG</h4>
-        {/* <img class="img-model" src="img\selfi3-2.png" alt="Selfi">			 */}
-        <div className="uk-card uk-card-default uk-card-body uk-align-center">
+        
+        <div className="home-container uk-card uk-card-default uk-card-body uk-align-center">
+          <img className="img-model" src="public\img\selfi.png" alt="Selfi"/>			
         </div>
       </div>
     );
