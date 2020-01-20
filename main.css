@@ -11,14 +11,13 @@ body {
 }
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
-nav{
+ul{
     z-index: 100;
     list-style: none;
     text-align: center;
     margin: auto;
     padding-top: 120%;
     padding-left: 5%;
-    position: relative;
     /* width: 96.5%; */
 }
 
@@ -60,7 +59,7 @@ li a:hover {
 }
 
 .home-container {
-    height: 80%;
+    height: 50%;
     width: 65%;
     z-index: 90 !important;
     border-color: #9fa8a3;
