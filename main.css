@@ -54,6 +54,7 @@ body {
 }
 
 .home-container {
+    height: 350px;
     width: 55%;
     z-index: 90 !important;
     border-radius: 3%;
