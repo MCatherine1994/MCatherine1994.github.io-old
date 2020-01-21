@@ -59,7 +59,7 @@ body {
     z-index: 90 !important;
     border-color: #9fa8a3 !important;
     box-shadow: #9fa8a3 !important;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 .img-model {
@@ -67,7 +67,7 @@ body {
     border-radius: 50%; 
     background-color: #c5d5cb; 
     background-position: center; 
-    padding: 5%;
+    /* padding: 3%; */
     margin-left: auto;
     margin-right: auto;
     /* -webkit-animation: main 2s;
