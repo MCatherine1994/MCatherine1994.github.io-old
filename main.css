@@ -63,7 +63,7 @@ body {
 .home .uk-card-default {
     box-shadow: 0 5px 15px #9fa8a3 !important;
     color: #9fa8a3 !important;
-    background: null;
+    background: null !important;
 }
 
 .home-img {
