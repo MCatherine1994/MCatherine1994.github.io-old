@@ -22,7 +22,7 @@ class HomePage extends Component {
     return (
       <div id="one" className="home">
         <div className="home-container uk-card uk-card-default uk-card-body uk-align-center">
-          <img className="img-model" src="/public/img/selfi.png"/>			
+          <img className="img-model" src="img/selfi.png"/>			
         </div>
       </div>
     );
