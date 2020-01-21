@@ -54,7 +54,7 @@ body {
 
 .home-container {
     height: 350px;
-    width: 55%;
+    width: 58%;
     z-index: 90 !important;
     border-radius: 3%;
     position: relative;
@@ -63,7 +63,7 @@ body {
 .home .uk-card-default {
     box-shadow: 0 5px 15px #9fa8a3 !important;
     color: #9fa8a3 !important;
-    background: none !important;
+    background: #CCD6D0; 
 }
 
 .home-img {
