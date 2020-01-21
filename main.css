@@ -56,15 +56,27 @@ body {
 .home-container {
     width: 60%;
     z-index: 90 !important;
-    border-color: #9fa8a3 !important;
-    box-shadow: 0 5px 15px #9fa8a3 !important;
     border-radius: 3%;
+    position: relative;
+}
+
+.home .uk-card-default {
+    box-shadow: 0 5px 15px #9fa8a3 !important;
+    color: #9fa8a3 !important;
+    background: null;
+}
+
+.home-img {
+    position: absolute;
+    top: 2%;
+    left: 2%;
 }
 
 .img-model {
     border-radius: 50%; 
     background-color: #c5d5cb; 
     background-position: center; 
+    padding-right: 2%;
     margin-left: auto;
     margin-right: auto;
 }
