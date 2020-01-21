@@ -40,17 +40,16 @@ body {
 /* -----------------------------Home Page------------------------------- */
 .website-page h2 {
     color:#9fa8a3;
-    padding-top: 2%;
-    padding-bottom: 0.5%;
+    padding-top: 3%;
     font-family: "Times New Roman", Times, serif;
     text-align: center; 
 }
 
 .website-page h4 {
+    padding-bottom: 1%;
     color:#9fa8a3;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    margin-top: 0.5% !important;
 }
 
 .home-container {
