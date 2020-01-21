@@ -54,25 +54,19 @@ body {
 }
 
 .home-container {
-    width: 65%;
+    width: 60%;
     z-index: 90 !important;
     border-color: #9fa8a3 !important;
-    box-shadow: #9fa8a3 !important;
+    box-shadow: 0 5px 15px #9fa8a3 !important;
     border-radius: 3%;
 }
 
 .img-model {
-    /* display: block; */
     border-radius: 50%; 
     background-color: #c5d5cb; 
     background-position: center; 
-    /* padding: 3%; */
     margin-left: auto;
     margin-right: auto;
-    /* -webkit-animation: main 2s;
-    -moz-animation: main 2s;
-    -ms-animation: main 2s;
-    animation: main 2s;  */
 }
 
 /* -------------Experience Page---------------------------- */
