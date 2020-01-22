@@ -16,8 +16,9 @@ body {
     list-style: none;
     text-align: center;
     margin: auto;
-    padding-top: 40%;
-    padding-left: 20%;
+    bottom: 5%;
+    /* padding-top: 40%;
+    padding-left: 20%; */
 }
 
 .website-page li{
@@ -30,7 +31,7 @@ body {
     text-align: left;
     text-decoration: none;
     color: #9fa8a3;
-    padding: 10px; 
+    /* padding: 10px;  */
 }
 
 .website-page li a:hover {
@@ -54,7 +55,7 @@ body {
 
 .home-container {
     height: 350px;
-    width: 58%;
+    width: 60%;
     z-index: 90 !important;
     border-radius: 3%;
     position: relative;
@@ -63,7 +64,8 @@ body {
 .home .uk-card-default {
     box-shadow: 0 5px 15px #9fa8a3 !important;
     color: #9fa8a3 !important;
-    background: #CCD6D0; 
+    background: rbg(204,214,208,0.6);
+    /* #CCD6D0;  */
 }
 
 .home-img {
