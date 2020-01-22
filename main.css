@@ -11,25 +11,30 @@ body {
 }
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
-.website-page .uk-navbar-container {
-    background: none !important;
-    top: "" !important
-}
 .website-page ul{
     z-index: 100;
     list-style: none;
     text-align: center;
+    position: fixed;
+    bottom: 0;
     margin: auto;
+    padding: auto;
+    width: 100%;
+    overflow: scroll;
 }
 
+.website-page li{
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+   /*float: left; */
+}
 .website-page li a {
-    /* display: block; */
-    font-size: 1.2em !important;
-    /* text-align: left; */
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
     text-decoration: none;
-    color: #9fa8a3 !important;
-    font-family: "Times New Roman", Times, serif !important;
-    /* padding: 10px;  */
+    color: #9fa8a3;
+    padding: 30px; 
 }
 
 .website-page li a:hover {
