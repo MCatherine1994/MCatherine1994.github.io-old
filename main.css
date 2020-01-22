@@ -40,6 +40,7 @@ li a {
 
 li a:hover {
     text-decoration: underline;
+    color: #9fa8a3;
 }
 
 /* -----------------------------Home Page------------------------------- */
