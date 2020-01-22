@@ -28,13 +28,22 @@ class Website extends Component {
           <h4 className="uk-align-center">DA MENG</h4>
         </div>
         
-        <nav className="uk-align-left"> 
-          <ul>
+        <nav className="uk-navbar-container uk-margin uk-navbar-center" uk-navbar> 
+          <ul className="uk-navbar-nav">
             <li><a href="#one">Home</a></li>
             <li><a href="#two">Experience</a></li>
             <li><a href="#three">Project</a></li>
             <li><a href="#four">Contact</a></li>
           </ul>
+          {/* <div>
+            <ul className="uk-navbar-nav">
+              <li><a href="#one">Home</a></li>
+              <li><a href="#two">Experience</a></li>
+              <li><a href="#three">Project</a></li>
+              <li><a href="#four">Contact</a></li>
+            </ul>
+          </div> */}
+          
         </nav>
         <HomePage />
       </div> 

@@ -1,8 +1,8 @@
 html, body { height: 100%; padding: 0; margin: 0; }
-/* div { 
+div { 
 	width: 100%; 
 	height: 100%; 
-} */
+}
 
 body {
     background: linear-gradient(90deg, #e3e0cf 50%, #ffffff 50%); 
@@ -11,26 +11,25 @@ body {
 }
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
+.website-page .uk-navbar-container {
+    background: none !important;
+    top: "" !important
+}
 .website-page ul{
     z-index: 100;
     list-style: none;
     text-align: center;
     margin: auto;
-    padding-top: 40%;
-    padding-left: 20%;
-}
-
-.website-page li{
-    font-family: "Times New Roman", Times, serif;
 }
 
 .website-page li a {
-    display: block;
-    font-size: 1.2em;
-    text-align: left;
+    /* display: block; */
+    font-size: 1.2em !important;
+    /* text-align: left; */
     text-decoration: none;
-    color: #9fa8a3;
-    padding: 10px; 
+    color: #9fa8a3 !important;
+    font-family: "Times New Roman", Times, serif !important;
+    /* padding: 10px;  */
 }
 
 .website-page li a:hover {
@@ -40,40 +39,47 @@ body {
 /* -----------------------------Home Page------------------------------- */
 .website-page h2 {
     color:#9fa8a3;
-    padding-top: 2%;
-    padding-bottom: 0.5%;
+    padding-top: 3%;
     font-family: "Times New Roman", Times, serif;
     text-align: center; 
 }
 
 .website-page h4 {
+    padding-bottom: 1%;
     color:#9fa8a3;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    margin-top: 0.5% !important;
 }
 
 .home-container {
-    height: 80%;
-    width: 65%;
+    height: 350px;
+    width: 60%;
     z-index: 90 !important;
-    border-color: #9fa8a3 !important;
-    box-shadow: #9fa8a3 !important;
     border-radius: 3%;
+    position: relative;
+}
+
+.home .uk-card-default {
+    box-shadow: 0 5px 15px #9fa8a3 !important;
+    color: #9fa8a3 !important;
+    background: rbg(204,214,208,0.6);
+    /* #CCD6D0;  */
+}
+
+.home-img {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: 125px;
 }
 
 .img-model {
-    /* display: block; */
     border-radius: 50%; 
-    background-color: #c5d5cb; 
+    /* background-color: #c5d5cb;  */
     background-position: center; 
-    /* padding: 3%; */
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* -webkit-animation: main 2s;
-    -moz-animation: main 2s;
-    -ms-animation: main 2s;
-    animation: main 2s;  */
 }
 
 /* -------------Experience Page---------------------------- */

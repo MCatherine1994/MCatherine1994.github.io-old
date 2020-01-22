@@ -21,16 +21,10 @@ class HomePage extends Component {
   render() {
     return (
       <div id="one" className="home">
-        {/* <div className="home-container uk-card uk-card-default uk-card-body uk-align-center">
-          <img className="img-model" src="img/selfi.png"/>			
-        </div> */}
-        <div className="uk-card uk-card-default">
-          <div className="uk-card-media-left uk-cover-container">
-          <img className="img-model" src="img/selfi.png" uk-cover/>
-          </div>
-          <div>
-              <div className="uk-card-body"></div>
-          </div>
+        <div className="home-container uk-card uk-card-default uk-card-large uk-card-body uk-align-center">
+          <div className="home-img">
+            <img className="img-model" src="img/selfi.png"/>
+          </div>	
         </div>
       </div>
     );
