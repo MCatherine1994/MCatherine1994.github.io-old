@@ -11,6 +11,9 @@ body {
 }
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
+.website-page .uk-navbar-container {
+    background: none;
+}
 .website-page ul{
     /* z-index: 100;
     list-style: none;
@@ -27,8 +30,8 @@ body {
 
 .website-page li a {
     /* display: block; */
-    /* font-size: 1.2em;
-    text-align: left;
+    font-size: 1.2em;
+    /* text-align: left;
     text-decoration: none; */
     color: #9fa8a3;
     /* padding: 10px;  */
