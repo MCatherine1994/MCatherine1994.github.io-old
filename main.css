@@ -12,7 +12,7 @@ body {
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
 .website-page .uk-navbar-container {
-    background: none;
+    background: none !important;
 }
 .website-page ul{
     /* z-index: 100;
@@ -25,15 +25,15 @@ body {
 }
 
 .website-page li{
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif !important;
 }
 
 .website-page li a {
     /* display: block; */
-    font-size: 1.2em;
+    font-size: 1.2em !important;
     /* text-align: left;
     text-decoration: none; */
-    color: #9fa8a3;
+    color: #9fa8a3 !important;
     /* padding: 10px;  */
 }
 
