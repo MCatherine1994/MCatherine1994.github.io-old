@@ -12,11 +12,11 @@ body {
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
 .website-page ul{
-    z-index: 100;
+    /* z-index: 100;
     list-style: none;
     text-align: center;
     margin: auto;
-    bottom: 5%;
+    bottom: 5%; */
     /* padding-top: 40%;
     padding-left: 20%; */
 }
@@ -26,10 +26,10 @@ body {
 }
 
 .website-page li a {
-    display: block;
-    font-size: 1.2em;
+    /* display: block; */
+    /* font-size: 1.2em;
     text-align: left;
-    text-decoration: none;
+    text-decoration: none; */
     color: #9fa8a3;
     /* padding: 10px;  */
 }
