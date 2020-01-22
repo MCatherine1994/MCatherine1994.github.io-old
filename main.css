@@ -11,7 +11,7 @@ body {
 }
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
-.website-page ul{
+ul{
     z-index: 100;
     list-style: none;
     text-align: center;
@@ -23,12 +23,13 @@ body {
     overflow: scroll;
 }
 
-.website-page li{
-    font-family: "Times New Roman", Times, serif;
-    display: inline-block;
-   /*float: left; */
+li{
+     font-family: "Times New Roman", Times, serif;
+     display: inline-block;
+    /*float: left; */
 }
-.website-page li a {
+
+li a {
     display: block;
     font-size: 1.2em;
     text-align: center;
@@ -37,7 +38,7 @@ body {
     padding: 30px; 
 }
 
-.website-page li a:hover {
+li a:hover {
     text-decoration: underline;
 }
 
