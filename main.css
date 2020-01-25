@@ -73,9 +73,14 @@ li a:hover {
     /* #CCD6D0;  */
 }
 
-.home h5 {
+.home .uk-comment-title {
     font-family: "Times New Roman", Times, serif;
-    text-align: center;
+    color:#9fa8a3;
+}
+
+.home .uk-comment-body {
+    font-family: "Times New Roman", Times, serif;
+    color:#9fa8a3;
 }
 
 .home-img {
