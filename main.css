@@ -88,6 +88,10 @@ body {
     font-weight: bold;
 }
 
+.home hr {
+    color:#89918C;
+}
+
 .home .uk-comment-body {
     font-family: "Times New Roman", Times, serif;
     color:#89918C;
