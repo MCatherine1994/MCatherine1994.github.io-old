@@ -73,6 +73,11 @@ li a:hover {
     /* #CCD6D0;  */
 }
 
+.home h5 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
 .home-img {
     position: absolute;
     top: 3px;
