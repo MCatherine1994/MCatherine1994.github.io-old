@@ -43,7 +43,6 @@ body {
     color: #9fa8a3;
 }
 
-/* -----------------------------Home Page------------------------------- */
 .website-title {
     color:#9fa8a3;
     padding-top: 3%;
@@ -58,7 +57,8 @@ body {
     text-align: center;
 }
 
-.home-container {
+/* -----------------------------Section Container------------------------------- */
+.section-container {
     width: 60%;
     z-index: 90 !important;
     border-radius: 3%;
@@ -67,11 +67,16 @@ body {
     padding-bottom: 15px !important;
 }
 
-.home .uk-card-default {
+.uk-card-default {
     box-shadow: 0 5px 15px #9fa8a3 !important;
     color: #9fa8a3 !important;
     background: rgba(204,214,208,0.6);
     /* #CCD6D0;  rgba(204,214,208,0.6) */
+}
+
+/* -----------------------------Home Page------------------------------- */
+.home .uk-comment-header {
+    margin-bottom: 10px !important;
 }
 
 .home .uk-comment-intro {
@@ -89,7 +94,8 @@ body {
 }
 
 .home hr {
-    border-top:1px solid #89918C;
+    border-top: 1px solid #89918C;
+    margin: 0;
 }
 
 .home .uk-comment-body {
@@ -100,7 +106,7 @@ body {
     margin-top: 20px;
 }
 
-.home-img {
+/* .home-img {
     position: absolute;
     top: 3px;
     left: 10px;
@@ -109,12 +115,12 @@ body {
 
 .img-model {
     border-radius: 50%; 
-    /* background-color: #c5d5cb;  */
+    background-color: #c5d5cb; 
     background-position: center; 
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 /* -------------Experience Page---------------------------- */
 .experience {
