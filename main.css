@@ -11,7 +11,7 @@ body {
 }
 
 /* -------------------------------------- Navigation Bar ----------------------------------*/
-ul{
+.website-navbar {
     z-index: 100;
     list-style: none;
     text-align: center;
@@ -23,13 +23,13 @@ ul{
     overflow: scroll;
 }
 
-li{
+.website-navbar li{
      font-family: "Times New Roman", Times, serif;
      display: inline-block;
     /*float: left; */
 }
 
-li a {
+.website-navbar li a {
     display: block;
     font-size: 1.2em;
     text-align: center;
@@ -38,7 +38,7 @@ li a {
     padding: 30px; 
 }
 
-li a:hover {
+.website-navbar li a:hover {
     text-decoration: underline;
     color: #9fa8a3;
 }
@@ -76,11 +76,16 @@ li a:hover {
 .home .uk-comment-title {
     font-family: "Times New Roman", Times, serif;
     color:#9fa8a3;
+    font-size: 1.0rem;
 }
 
 .home .uk-comment-body {
     font-family: "Times New Roman", Times, serif;
     color:#9fa8a3;
+}
+
+.home .uk-comment-intro {
+    padding-left: 0;
 }
 
 .home-img {
