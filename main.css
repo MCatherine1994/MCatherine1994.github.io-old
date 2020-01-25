@@ -63,8 +63,8 @@ body {
     z-index: 90 !important;
     border-radius: 3%;
     position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
 }
 
 .home .uk-card-default {
