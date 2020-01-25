@@ -59,7 +59,6 @@ body {
 }
 
 .home-container {
-    height: 350px;
     width: 60%;
     z-index: 90 !important;
     border-radius: 3%;
@@ -70,18 +69,24 @@ body {
     box-shadow: 0 5px 15px #9fa8a3 !important;
     color: #9fa8a3 !important;
     background: rgba(204,214,208,0.6);
-    /* #CCD6D0;  */
+    /* #CCD6D0;  rgba(204,214,208,0.6) */
 }
 
 .home .uk-comment-title {
     font-family: "Times New Roman", Times, serif;
-    color:#9fa8a3;
-    font-size: 1.0rem;
+    color:#89918C;
+    font-size: 1.1rem;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.home .uk-comment-meta {
+    padding-left: 10px !important;
 }
 
 .home .uk-comment-body {
     font-family: "Times New Roman", Times, serif;
-    color:#9fa8a3;
+    color:#89918C;
 }
 
 .home .uk-comment-intro {
