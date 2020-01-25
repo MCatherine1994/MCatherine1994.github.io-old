@@ -87,10 +87,12 @@ body {
 .home .uk-comment-body {
     font-family: "Times New Roman", Times, serif;
     color:#89918C;
+    text-align: center;
 }
 
 .home .uk-comment-intro {
     padding-left: 0;
+    text-align: center;
 }
 
 .home-img {
