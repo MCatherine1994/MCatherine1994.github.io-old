@@ -84,12 +84,12 @@ body {
     color:#89918C;
     font-size: 1.05rem;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-weight: bold;
 }
 
 .home hr {
-    color:#89918C;
+    border-top:1px solid #89918C;
 }
 
 .home .uk-comment-body {
