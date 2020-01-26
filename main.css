@@ -1,4 +1,8 @@
-html, body { height: 100%; padding: 0; margin: 0; }
+html, body { 
+    /* height: 100%;  */
+    padding: 0; 
+    margin: 0; 
+}
 /* div { 
 	width: 100%; 
 	height: 100%; 
@@ -78,6 +82,10 @@ body {
 }
 
 /* -----------------------------Home Page------------------------------- */
+.home {
+    padding-bottom: 50px;
+}
+
 .home .uk-comment-header {
     margin-bottom: 10px !important;
 }
