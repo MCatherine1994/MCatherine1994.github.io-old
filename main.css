@@ -69,16 +69,16 @@ body {
     position: relative;
     padding-top: 15px !important;
     padding-bottom: 15px !important;
-    box-shadow: 0 5px 15px #9fa8a3 !important;
-    color: #9fa8a3 !important;
-    background: rgba(204,214,208,0.6);
-}
-
-.website-page .uk-card-default {
     /* box-shadow: 0 5px 15px #9fa8a3 !important;
     color: #9fa8a3 !important;
     background: rgba(204,214,208,0.6); */
-    /* #CCD6D0;  rgba(204,214,208,0.6) */
+}
+
+.website-page .uk-card-default {
+    box-shadow: 0 5px 15px #9fa8a3 !important;
+    color: #9fa8a3 !important;
+    background: rgba(204,214,208,0.6);
+    /* #CCD6D0;  rgba(204,214,208,0.6)
 }
 
 /* -----------------------------Home Page------------------------------- */
