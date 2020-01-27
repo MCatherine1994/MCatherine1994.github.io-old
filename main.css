@@ -86,16 +86,16 @@ body {
     padding-bottom: 50px;
 }
 
-.home .uk-comment-header {
+.website-page .uk-comment-header {
     margin-bottom: 10px !important;
 }
 
-.home .uk-comment-intro {
+.website-page .uk-comment-intro {
     padding-left: 10px;
     /* text-align: center; */
 }
 
-.home .uk-comment-title {
+.website-page .uk-comment-title {
     font-family: "Times New Roman", Times, serif;
     color:#89918C;
     font-size: 1.05rem;
@@ -104,12 +104,12 @@ body {
     font-weight: bold;
 }
 
-.home hr {
+.website-page hr {
     border-top: 1px solid #89918C;
     margin: 0;
 }
 
-.home .uk-comment-body {
+.website-page .uk-comment-body {
     font-family: "Times New Roman", Times, serif;
     color:#89918C;
     /* text-align: center; */
