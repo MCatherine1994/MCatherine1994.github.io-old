@@ -81,18 +81,51 @@ body {
     /* #CCD6D0;  rgba(204,214,208,0.6) */
 /* } */
 
+/* -----------------------------Comment Container------------------------------- */
+.uk-comment-header {
+    margin-bottom: 10px !important;
+}
+
+.uk-comment-intro {
+    padding-left: 10px;
+    /* text-align: center; */
+}
+
+.uk-comment-title {
+    font-family: "Times New Roman", Times, serif;
+    color:#89918C;
+    font-size: 1.05rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.uk-comment hr {
+    border-top: 1px solid #89918C;
+    margin: 0;
+}
+
+.uk-comment-body {
+    font-family: "Times New Roman", Times, serif;
+    color:#89918C;
+    /* text-align: center; */
+    padding-left: 22px;
+    margin-top: 20px;
+}
+
+
 /* -----------------------------Home Page------------------------------- */
 .home {
     padding-bottom: 50px;
 }
 
-.home .uk-comment-header {
+/* .home .uk-comment-header {
     margin-bottom: 10px !important;
 }
 
 .home .uk-comment-intro {
     padding-left: 10px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .home .uk-comment-title {
@@ -112,10 +145,10 @@ body {
 .home .uk-comment-body {
     font-family: "Times New Roman", Times, serif;
     color:#89918C;
-    /* text-align: center; */
+    text-align: center;
     padding-left: 22px;
     margin-top: 20px;
-}
+} */
 
 /* .home-img {
     position: absolute;
