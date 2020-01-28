@@ -134,3 +134,43 @@ body {
 } */
 
 /* -------------Work Page---------------------------- */
+.work {
+    padding-bottom: 50px;
+}
+
+.work .uk-comment-header {
+    margin-bottom: 10px !important;
+}
+
+.work .uk-comment-intro {
+    padding-left: 10px;
+    /* text-align: center; */
+}
+
+.work .uk-comment-title {
+    font-family: "Times New Roman", Times, serif;
+    color:#89918C;
+    font-size: 1.05rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.work .uk-comment-meta {
+    font-family: "Times New Roman", Times, serif;
+    color:#89918C;
+    font-size: 1.0 rem;
+}
+
+.work hr {
+    border-top: 1px solid #89918C;
+    margin: 0;
+}
+
+.work .uk-comment-body {
+    font-family: "Times New Roman", Times, serif;
+    color:#89918C;
+    /* text-align: center; */
+    padding-left: 22px;
+    margin-top: 20px;
+}
