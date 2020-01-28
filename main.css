@@ -171,13 +171,13 @@ body {
     padding-bottom: 50px;
 }
 
-.work .uk-comment-header {
+/* .work .uk-comment-header {
     margin-bottom: 10px !important;
 }
 
 .work .uk-comment-intro {
     padding-left: 10px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .work .uk-comment-title {
@@ -203,7 +203,7 @@ body {
 .work .uk-comment-body {
     font-family: "Times New Roman", Times, serif;
     color:#89918C;
-    /* text-align: center; */
+    text-align: center;
     padding-left: 22px;
     margin-top: 20px;
-}
+} */
