@@ -63,21 +63,21 @@ body {
 
 /* -----------------------------Section Container------------------------------- */
 .website-page .section-container {
-    width: 60%;
+    /* width: 60%;
     z-index: 90 !important;
     border-radius: 3%;
     position: relative;
     padding-top: 15px !important;
-    padding-bottom: 15px !important;
+    padding-bottom: 15px !important; */
     /* box-shadow: 0 5px 15px #9fa8a3 !important;
     color: #9fa8a3 !important;
     background: rgba(204,214,208,0.6); */
 }
 
 .website-page .uk-card-default {
-    box-shadow: 0 5px 15px #9fa8a3 !important;
+    /* box-shadow: 0 5px 15px #9fa8a3 !important;
     color: #9fa8a3 !important;
-    background: rgba(204,214,208,0.6);
+    background: rgba(204,214,208,0.6); */
     /* #CCD6D0;  rgba(204,214,208,0.6) */
 }
 
