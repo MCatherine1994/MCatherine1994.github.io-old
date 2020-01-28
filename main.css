@@ -87,14 +87,14 @@ body {
 }
 
 .uk-comment-intro {
-    padding-left: 10px;
+    padding-left: 10px !important;
     /* text-align: center; */
 }
 
 .uk-comment-title {
     font-family: "Times New Roman", Times, serif;
     color:#89918C;
-    font-size: 1.05rem;
+    font-size: 1.05rem !important;
     padding-top: 20px;
     padding-bottom: 10px;
     font-weight: bold;
