@@ -81,6 +81,18 @@ body {
     /* #CCD6D0;  rgba(204,214,208,0.6) */
 /* } */
 
+/* -----------------------------Card Container------------------------------- */
+.card-container {
+    z-index: 90 !important;
+    border-radius: 3%;
+    position: relative;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    box-shadow: 0 5px 15px #9fa8a3 !important;
+    color: #9fa8a3 !important;
+    background: rgba(255,255,255,0.8) !important;
+}
+
 /* -----------------------------Comment Container------------------------------- */
 .uk-comment-header {
     margin-bottom: 10px !important;
@@ -108,7 +120,7 @@ body {
 .uk-comment-body {
     font-family: "Times New Roman", Times, serif;
     color:#89918C;
-    /* text-align: center; */
+    text-align: justify;
     padding-left: 22px;
     margin-top: 20px;
 }
@@ -169,4 +181,9 @@ body {
 /* -------------Work Page---------------------------- */
 .work {
     padding-bottom: 50px;
+}
+
+.work .uk-comment-body {
+    padding-left: 10px;
+    margin-bottom: 0;
 }
