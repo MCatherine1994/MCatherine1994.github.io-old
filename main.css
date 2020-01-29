@@ -93,11 +93,6 @@ body {
     background: rgba(255,255,255,0.8) !important;
 }
 
-.card-container .uk-comment-body {
-    padding-left: 10px;
-    margin-bottom: 0;
-}
-
 /* -----------------------------Comment Container------------------------------- */
 .uk-comment-header {
     margin-bottom: 10px !important;
@@ -186,4 +181,9 @@ body {
 /* -------------Work Page---------------------------- */
 .work {
     padding-bottom: 50px;
+}
+
+.work .uk-comment-body {
+    padding-left: 10px;
+    margin-bottom: 0;
 }
