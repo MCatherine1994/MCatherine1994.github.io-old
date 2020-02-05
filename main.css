@@ -193,3 +193,10 @@ body {
 .project {
     padding-bottom: 50px;
 }
+
+.project .project-button {
+    background: rgba(255,255,255,0.8);
+    border-radius: 10%;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 15px #9fa8a3;
+}
