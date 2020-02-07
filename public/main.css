@@ -187,3 +187,33 @@ body {
     padding-left: 10px;
     margin-bottom: 0;
 }
+
+
+/* -------------Project Page---------------------------- */
+.project {
+    padding-bottom: 50px;
+}
+
+.project .project-button {
+    background: rgba(255,255,255,0.8);
+    border-radius: 3%;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 15px #9fa8a3;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-align: center;
+    width: 160px;
+}
+
+.project .uk-description-list d {
+    padding-bottom: 15px;
+}
+
+.project .uk-description-list dt {
+    font-size: 1em;
+}
+
+.project .uk-description-list dd {
+    font-size: 0.95em;
+    padding-top: 10px;
+}

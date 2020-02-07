@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import SectionContainer from '../components/sectionContainer';
 import CommentContainer from '../components/commentContainer';
+import CardContainer from '../components/cardContainer';
 
 import "../../node_modules/uikit/src/less/uikit.theme.less";
 
@@ -23,13 +24,13 @@ class HomePage extends Component {
   */
   render() {
     const introduction = (
-      <React.Fragment>
+      <CardContainer>
         <p>Programming Language: JAVA, C, Python, HTML/CSS/Javascript, React.js, D3.js, SQL</p>
         <p>Database: Oracle, PostgreSQL, MongoDB</p>
         <p>Project Management: Git, GitLab, Azure DevOps</p>
         <p>Environment: Windows, Linux</p>
         <p>Statistic: Matlab, R/RStudio</p>
-      </React.Fragment>
+      </CardContainer>
     );
 
     const icons = (

@@ -18,6 +18,7 @@ class WorkPage extends Component {
     super(props);
     this.getMinistryE = this.getMinistryE.bind(this);
     this.getTransitE = this.getTransitE.bind(this);
+    this.getMaximusE = this.getMaximusE.bind(this);
   }
 
   /**
@@ -25,7 +26,7 @@ class WorkPage extends Component {
   * @returns {JSX} returns React element
   */
   getMinistryE() {
-    const mIntro = (
+    const intro = (
       <div style={{ textAlign: 'justify' }}>
         <p>- Work on Node.js application developed using the Meteor web framework, React UI pattern and making extensive use of the d3.js visualization library</p>
         <p>- Create private node packages for reusable components from the website project</p>
@@ -42,14 +43,16 @@ class WorkPage extends Component {
 
     const metaList = (
       <React.Fragment>
-        <li><a href="#" style={style}>Ministry of Social Development and Poverty Reduction</a></li>
-        <li><a href="#" style={style} uk-icon="icon: clock; ratio: 0.8" uk-tooltip="201806 - 201812, 201905 - Present"></a></li>
+        <li><a href="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/social-development-poverty-reduction" style={style}>
+          Ministry of Social Development and Poverty Reduction
+        </a></li>
+        <li><a href="#" style={style} uk-icon="icon: clock; ratio: 0.6" uk-tooltip="201806 - 201812, 201905 - Present"></a></li>
       </React.Fragment>
     );
 
     return (
       <CommentContainer
-        commentBody={mIntro}
+        commentBody={intro}
         commentMeta={metaList}
         commentTitle="Front End/Web Application Developer"
         commentImage={<img className="uk-comment-avatar" src="img/bcministry.png" width="100" height="100" alt="" />}
@@ -62,14 +65,14 @@ class WorkPage extends Component {
   * @returns {JSX} returns React element
   */
   getTransitE() {
-    const tIntro = (
-      <React.Fragment>
+    const intro = (
+      <div style={{ textAlign: 'justify' }}>
         <p>- Build data model using SQL queries and design report using BI Publisher and crystal report</p>
         <p>- Debug dynamic actions for application using Oracle Application Express</p>
         <p>- Install and update the new patches of Raspberry Pi</p>
         <p>- Handel application related tickets assigned by service desk</p>
         <p>- Attend Agile and DevOps training with QAcademy</p>      
-      </React.Fragment>
+      </div>
     );
 
     const style = {
@@ -80,20 +83,58 @@ class WorkPage extends Component {
 
     const metaList = (
       <React.Fragment>
-        <li><a href="#" style={style}>BC Transit</a></li>
-        <li><a href="#" style={style} uk-icon="icon: clock; ratio: 0.8" uk-tooltip="201801 - 201804"></a></li>
+        <li><a href="https://www.bctransit.com/choose-transit-system" style={style}>BC Transit</a></li>
+        <li><a href="#" style={style} uk-icon="icon: clock; ratio: 0.6" uk-tooltip="201801 - 201804"></a></li>
       </React.Fragment>
     );
 
     return (
       <CommentContainer
-        commentBody={tIntro}
+        commentBody={intro}
         commentMeta={metaList}
         commentTitle="IT - Applicant"
         commentImage={<img className="uk-comment-avatar" src="img/bctransit.png" width="100" height="100" alt="" />}
       />
     );
   }
+
+  /**
+  * Render maximus work experience
+  * @returns {JSX} returns React element
+  */
+  getMaximusE() {
+    const intro = (
+      <div style={{ textAlign: 'justify' }}>
+        <p>- Participate in functional testing, smoke testing, regression testing, joint system integration testing and business acceptance testing</p>
+        <p>- Create and manipulate test data using SQL Developer; Create and execute test cases using SilkCentral, and analyze test result on a regular basis; Create and follow the change requests using Starteam</p>
+        <p>- Track information and work through SharePoint</p>
+        <p>- Work collaboratively on a cross-functional team and contribute to project planning and implementation</p> 
+      </div>
+    );
+
+    const style = {
+      color: "#89918C", 
+      fontFamily: "'Times New Roman', Times, serif",
+      fontSize: "0.95em",
+    };
+
+    const metaList = (
+      <React.Fragment>
+        <li><a href="https://maximuscanada.ca" style={style}>Maximus</a></li>
+        <li><a href="#" style={style} uk-icon="icon: clock; ratio: 0.6" uk-tooltip="201701 - 201712"></a></li>
+      </React.Fragment>
+    );
+
+    return (
+      <CommentContainer
+        commentBody={intro}
+        commentMeta={metaList}
+        commentTitle="Business System Analysis"
+        commentImage={<img className="uk-comment-avatar" src="img/maximus.png" width="100" height="100" alt="" />}
+      />
+    );
+  }
+
 
 
   /**
@@ -103,6 +144,7 @@ class WorkPage extends Component {
   render() {
     const ministry = this.getMinistryE();
     const bctransit = this.getTransitE();
+    const maximus = this.getMaximusE();
 
     return (
       <div id="two" className="work">
@@ -114,16 +156,14 @@ class WorkPage extends Component {
                   <CardContainer>{ministry}</CardContainer>
                 </li>
                 <li className="uk-width-3-4">
-                  <div className="uk-card uk-card-default">
-                    <img className="" src="img/bctransit.png" width="110" height="110" alt=""/>
-                  </div>
-                </li>
-                <li className="uk-width-3-4">
                   <CardContainer>{bctransit}</CardContainer>
                 </li>
+                <li className="uk-width-3-4">
+                  <CardContainer>{maximus}</CardContainer>
+                </li>
               </ul>
-              <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-              <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+              {/* <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+              <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a> */}
             </div>
             <ul className="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
           </div>

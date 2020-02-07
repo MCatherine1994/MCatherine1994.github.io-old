@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HomePage from './homePage';
 import WorkPage from './workPage';
+import ProjectPage from './projectPage'; 
 
 import "../../node_modules/uikit/src/less/uikit.theme.less";
 import "./websitePage.less";
@@ -40,6 +41,7 @@ class Website extends Component {
 
         <HomePage />
         <WorkPage />
+        <ProjectPage />
       </div> 
     );
   }
