@@ -204,3 +204,12 @@ body {
     text-align: center;
     width: 160px;
 }
+
+.project .uk-description-list dt {
+    font-size: 1em;
+}
+
+.project .uk-description-list dd {
+    font-size: 0.95em;
+    padding-top: 10px;
+}
