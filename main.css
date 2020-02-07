@@ -205,6 +205,10 @@ body {
     width: 160px;
 }
 
+.project .uk-description-list d {
+    padding-bottom: 15px;
+}
+
 .project .uk-description-list dt {
     font-size: 1em;
 }
