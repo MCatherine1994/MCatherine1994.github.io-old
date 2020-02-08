@@ -214,9 +214,9 @@ body {
     font-size: 1em;
 }
 
-.project .uk-active a {
+/* .project .uk-active a {
     color: #727D77 !important;
-}
+} */
 
 .project .uk-description-list dd {
     font-size: 0.95em;
