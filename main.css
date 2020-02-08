@@ -203,17 +203,20 @@ body {
     padding-right: 0px !important;
     text-align: center;
     width: 160px;
+    color: #727D77;
 }
 
-.project .uk-description-list d {
+.project .uk-description-list dl {
     padding-bottom: 15px;
 }
 
 .project .uk-description-list dt {
     font-size: 1em;
+    color: #727D77 !important;
 }
 
 .project .uk-description-list dd {
     font-size: 0.95em;
     padding-top: 10px;
+    text-align: justify;
 }
