@@ -212,6 +212,9 @@ body {
 
 .project .uk-description-list dt {
     font-size: 1em;
+}
+
+.project .uk-active a {
     color: #727D77 !important;
 }
 
