@@ -203,7 +203,7 @@ body {
     padding-right: 0px !important;
     text-align: center;
     width: 160px;
-    color: #727D77;
+    /* color: #727D77; */
 }
 
 .project .uk-description-list dl {
@@ -212,11 +212,12 @@ body {
 
 .project .uk-description-list dt {
     font-size: 1em;
+    color: #727D77 !important;
 }
 
-/* .project .uk-active a {
+.project .uk-active a {
     color: #727D77 !important;
-} */
+}
 
 .project .uk-description-list dd {
     font-size: 0.95em;
