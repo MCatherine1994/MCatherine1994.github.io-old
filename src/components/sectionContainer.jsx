@@ -9,14 +9,6 @@ import "./sectionContainer.less";
 */
 class SectionContainer extends Component {
   /**
-  * Initialize the React element
-  * @param {props} props React element properties
-  */
-  constructor(props) {
-    super(props);
-  }
-
-  /**
   * Renders a website component
   * @returns {JSX} returns React element
   */

@@ -11,14 +11,6 @@ import "./websitePage.less";
 */
 class Website extends Component {
   /**
-  * Initialize the React element
-  * @param {props} props React element properties
-  */
-  constructor(props) {
-    super(props);
-  }
-
-  /**
   * Renders a website component
   * @returns {JSX} returns React element
   */

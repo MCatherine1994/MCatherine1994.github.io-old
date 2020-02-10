@@ -10,14 +10,6 @@ import "../../node_modules/uikit/src/less/uikit.theme.less";
 */
 class ProjectPage extends Component {
   /**
-  * Initialize the React element
-  * @param {props} props React element properties
-  */
-  constructor(props) {
-    super(props);
-  }
-
-  /**
   * Renders a website component
   * @returns {JSX} returns React element
   */
@@ -27,6 +19,13 @@ class ProjectPage extends Component {
         <dt>Battle Snake 2019  <a href="https://github.com/colosnake2019/Fine-snake" uk-icon="icon: github; ratio: 0.8"/>{' '}
           / 2018  <a href="https://github.com/ccSnake2018/ccsnake" uk-icon="icon: github; ratio: 0.8"/></dt>
         <dd>Battle Snake Competition</dd>
+        <dt>Find Similar Items</dt>
+        <dd>For each question X, find a set of questions Y in the data set such that the similarly is 
+          greater than 60%. Dataset from 4k to 290k</dd>
+        <dt>PageRank Score</dt>
+        <dd>Compute PageRank score for the web dataset provided by Google</dd>
+        <dt>Recommended systems</dt>
+        <dd>Factorize the utility matrix to build recommended systems</dd>
         <dt>Probabilistic-Simulation  <a href="https://github.com/MCatherine1994/Probabilistic-Simulation" uk-icon="icon: github; ratio: 0.8"/></dt>
         <dd>Simulating a game of Monopoly to experimentally determine the cummulative probability of landing on each square</dd>
         <dt>Search Algorithm  <a href="https://github.com/MCatherine1994/Search-Algorithm" uk-icon="icon: github; ratio: 0.8"/></dt>
@@ -36,10 +35,8 @@ class ProjectPage extends Component {
 
     // const javaProject = (
     //   <dl className="uk-description-list uk-description-list-divider">
-    //     <dt>Description term</dt>
-    //     <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-    //     <dt>Description term</dt>
-    //     <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
+    //     <dt>Maze Problem</dt>
+    //     <dd>Use backtrack programming to solve the maze and count the number of solution to the maze</dd>
     //   </dl>
     // );
 

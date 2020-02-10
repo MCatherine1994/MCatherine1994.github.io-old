@@ -25,6 +25,8 @@ body {
     padding: auto;
     width: 100%;
     overflow: scroll;
+    background: rgba(255,255,255,0.8);
+    height: 80px;
 }
 
 .website-navbar li{
@@ -203,17 +205,24 @@ body {
     padding-right: 0px !important;
     text-align: center;
     width: 160px;
+    /* color: #727D77; */
 }
 
-.project .uk-description-list d {
+.project .uk-description-list dl {
     padding-bottom: 15px;
 }
 
 .project .uk-description-list dt {
     font-size: 1em;
+    color: #727D77 !important;
+}
+
+.project .uk-active a {
+    color: #727D77 !important;
 }
 
 .project .uk-description-list dd {
     font-size: 0.95em;
     padding-top: 10px;
+    text-align: justify;
 }
