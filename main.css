@@ -24,7 +24,6 @@ body {
     margin: auto;
     padding: auto;
     width: 100%;
-    overflow: scroll;
     background: rgba(255,255,255,0.6);
     height: 60px;
 }
@@ -184,7 +183,7 @@ body {
 
 /* -------------Work Page---------------------------- */
 .work {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .work .uk-comment-body {
@@ -195,7 +194,7 @@ body {
 
 /* -------------Project Page---------------------------- */
 .project {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .project .project-button {
@@ -206,7 +205,8 @@ body {
     padding-left: 0px !important;
     padding-right: 0px !important;
     text-align: center;
-    width: 160px;
+    overflow: scroll;
+    /* width: 160px; */
     /* color: #727D77; */
 }
 
