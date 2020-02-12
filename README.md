@@ -23,18 +23,14 @@ HTML color picker: https://www.w3schools.com/colors/colors_picker.asp
 ### **Backlogs:**  
 - [x] Inital a React app application
 - [x] Create a project page component
-- [ ] Update the home page section
-    - [ ] Write a home page component, add section title
-    - [ ] Add photo, basic instruction, and a small skill section
-    - [ ] Add tests if necessary
-- [ ] Update the work experience section
-    - [ ] Write a work experience component, add section title
-    - [ ] Create a reusable slider for time selection
-    - [ ] Associate the selected time to the work experience
-    - [ ] Add tests if necessary
-- [ ] Update the school project section
-    - [ ] Write a school project component, add section title
-    - [ ] Create a d3 time series chart with annotation
-    - [ ] Link the school project to the github repository if exists
-    - [ ] Add tests if necessary
-- [ ] Update the contact section
+- [x] Update the home page section
+    - [x] Write a home page component, add section title
+    - [x] Add photo, basic instruction, and a small skill section
+- [x] Update the work experience section
+    - [x] Write a work experience component, add section title
+    - [x] Add detail content
+- [x] Update the school project section
+    - [x] Write a school project component, add section title
+    - [x] Link the school project to the github repository if exists
+    - [x] Add tests if necessary
+- [ ] Update the more section

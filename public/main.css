@@ -24,9 +24,8 @@ body {
     margin: auto;
     padding: auto;
     width: 100%;
-    overflow: scroll;
-    background: rgba(255,255,255,0.8);
-    height: 80px;
+    background: rgba(255,255,255,0.6);
+    height: 60px;
 }
 
 .website-navbar li{
@@ -41,7 +40,9 @@ body {
     text-align: center;
     text-decoration: none;
     color: #9fa8a3;
-    padding: 30px; 
+    padding-left: 30px; 
+    padding-right: 30px;
+    padding-top: 20px;
 }
 
 .website-navbar li a:hover {
@@ -193,7 +194,7 @@ body {
 
 /* -------------Project Page---------------------------- */
 .project {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .project .project-button {
@@ -204,7 +205,8 @@ body {
     padding-left: 0px !important;
     padding-right: 0px !important;
     text-align: center;
-    width: 160px;
+    /* overflow: scroll; */
+    /* width: 160px; */
     /* color: #727D77; */
 }
 
