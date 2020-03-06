@@ -20,6 +20,14 @@ HTML color picker: https://www.w3schools.com/colors/colors_picker.asp
 #### **[React App Deploy](https://create-react-app.dev/docs/deployment/)**
 #### **[How To Configure ESLint In Visual Studio Code On Mac](https://appdividend.com/2018/12/29/how-to-configure-eslint-in-visual-studio-code-on-mac/)**
 
+### **Run Project Locally:**  
+```
+$ npm start
+```
+### **Deploy Project :**  
+```
+$ npm run deploy
+```
 ### **Backlogs:**  
 - [x] Inital a React app application
 - [x] Create a project page component
