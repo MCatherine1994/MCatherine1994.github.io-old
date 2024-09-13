@@ -22,7 +22,7 @@ class Website extends Component {
           <h4 className="uk-align-center website-subtitle">DA MENG</h4>
         </div>
         
-        <nav className="website-navbar" uk-navbar> 
+        <nav className="website-navbar" data-uk-navbar> 
           <ul>
             <li><a href="#one">Home</a></li>
             <li><a href="#two">Experience</a></li>

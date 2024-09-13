@@ -46,7 +46,7 @@ class WorkPage extends Component {
         <li><a href="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/social-development-poverty-reduction" style={style}>
           Ministry of Social Development and Poverty Reduction
         </a></li>
-        <li><a href="#" style={style} uk-icon="icon: clock; ratio: 0.6" uk-tooltip="201806 - 201812, 201905 - Present"></a></li>
+        <li><a href="#" style={style} data-uk-icon="icon: clock; ratio: 0.6" data-uk-tooltip="201806 - 201812, 201905 - Present"></a></li>
       </React.Fragment>
     );
 
@@ -55,7 +55,7 @@ class WorkPage extends Component {
         commentBody={intro}
         commentMeta={metaList}
         commentTitle="Front End/Web Application Developer"
-        commentImage={<img className="uk-comment-avatar" src="img/bcministry.png" width="100" height="100" alt="" />}
+        commentImage={<img className="uk-comment-avatar" src="/img/bcministry.png" width="100" height="100" alt="" />}
       />
     );
   }
@@ -84,7 +84,7 @@ class WorkPage extends Component {
     const metaList = (
       <React.Fragment>
         <li><a href="https://www.bctransit.com/choose-transit-system" style={style}>BC Transit</a></li>
-        <li><a href="#" style={style} uk-icon="icon: clock; ratio: 0.6" uk-tooltip="201801 - 201804"></a></li>
+        <li><a href="#" style={style} data-uk-icon="icon: clock; ratio: 0.6" data-uk-tooltip="201801 - 201804"></a></li>
       </React.Fragment>
     );
 
@@ -93,7 +93,7 @@ class WorkPage extends Component {
         commentBody={intro}
         commentMeta={metaList}
         commentTitle="IT - Applicant"
-        commentImage={<img className="uk-comment-avatar" src="img/bctransit.png" width="100" height="100" alt="" />}
+        commentImage={<img className="uk-comment-avatar" src="/img/bctransit.png" width="100" height="100" alt="" />}
       />
     );
   }
@@ -121,7 +121,7 @@ class WorkPage extends Component {
     const metaList = (
       <React.Fragment>
         <li><a href="https://maximuscanada.ca" style={style}>Maximus</a></li>
-        <li><a href="#" style={style} uk-icon="icon: clock; ratio: 0.6" uk-tooltip="201701 - 201712"></a></li>
+        <li><a href="#" style={style} data-uk-icon="icon: clock; ratio: 0.6" data-uk-tooltip="201701 - 201712"></a></li>
       </React.Fragment>
     );
 
@@ -130,7 +130,7 @@ class WorkPage extends Component {
         commentBody={intro}
         commentMeta={metaList}
         commentTitle="Business System Analysis"
-        commentImage={<img className="uk-comment-avatar" src="img/maximus.png" width="100" height="100" alt="" />}
+        commentImage={<img className="uk-comment-avatar" src="/img/maximus.png" width="100" height="100" alt="" />}
       />
     );
   }
@@ -149,7 +149,7 @@ class WorkPage extends Component {
     return (
       <div id="two" className="work">
         <SectionContainer>
-          <div uk-slider="center: true">
+          <div data-uk-slider="center: true">
             <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1">
               <ul className="uk-slider-items uk-child-width-1-2@s uk-grid">
                 <li className="uk-width-3-4">

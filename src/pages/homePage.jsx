@@ -27,9 +27,9 @@ class HomePage extends Component {
 
     const icons = (
       <React.Fragment>
-        <li><a href="https://github.com/MCatherine1994" uk-icon="github"></a></li>
-        <li><a href="https://www.linkedin.com/in/da-catherine-meng-568800146/" uk-icon="linkedin"></a></li>
-        <li><a href="#" uk-icon="mail" uk-tooltip="dmeng@uvic.ca"></a></li>
+        <li><a href="https://github.com/MCatherine1994" data-uk-icon="github"></a></li>
+        <li><a href="https://www.linkedin.com/in/da-catherine-meng-568800146/" data-uk-icon="linkedin"></a></li>
+        <li><a href="#" data-uk-icon="mail" data-uk-tooltip="dmeng@uvic.ca"></a></li>
       </React.Fragment>
     );
 
@@ -40,7 +40,7 @@ class HomePage extends Component {
             commentBody={introduction}
             commentMeta={icons}
             commentTitle="Computer Science Student with Statistic Minor from Univerity of Victoria"
-            commentImage={<img className="uk-comment-avatar" src="img/selfi.png" width="110" height="110" alt=""/>}
+            commentImage={<img className="uk-comment-avatar" src="/img/selfi.png" width="110" height="110" alt=""/>}
           />
         </SectionContainer>
       </div>

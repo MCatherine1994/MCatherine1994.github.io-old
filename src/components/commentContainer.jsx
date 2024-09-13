@@ -15,7 +15,7 @@ class CommentContainer extends Component {
     const { commentBody, commentMeta, commentTitle, commentImage } = this.props;
     return (
       <article className="uk-comment uk-align-center">
-        <header className="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid="">
+        <header className="uk-comment-header uk-grid-medium uk-flex-middle" data-uk-grid="">
           {commentImage}
           <div className="uk-width-expand uk-comment-intro">
             <p className="uk-comment-title uk-margin-remove"><a className="uk-link-reset" href="#">{commentTitle}</a></p>
